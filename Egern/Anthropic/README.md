@@ -1,0 +1,4 @@
+### Anthropic
+
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Anthropic/Anthropic.yaml
+

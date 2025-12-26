@@ -1,0 +1,4 @@
+### TestFlight
+
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/TestFlight/TestFlight.json
+

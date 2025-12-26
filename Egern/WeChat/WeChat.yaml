@@ -1,7 +1,6 @@
 # 规则名称: WeChat
-# 规则统计: 31
+# 规则统计: 30
 
-no_resolve: true
 domain_set:
   - apd-pcdnwxlogin.teg.tencent-cloud.net
   - btrace.qq.com
@@ -34,5 +33,3 @@ domain_suffix_set:
   - wxapp.tc.qq.com
   - wxs.qq.com
   - yun-hl.3g.qq.com
-asn_set:
-  - 132203

@@ -1,0 +1,4 @@
+### JinJiangWenXue
+
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/JinJiangWenXue/JinJiangWenXue.json
+
