@@ -1,5 +1,6 @@
 # 🧸 Weibo
 
 规则链接: https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/Weibo/Weibo.json
+
 规则链接: https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/Weibo/Weibo.srs
 

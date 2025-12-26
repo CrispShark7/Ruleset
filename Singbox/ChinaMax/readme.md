@@ -1,5 +1,6 @@
 # 🧸 ChinaMax
 
 规则链接: https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/ChinaMax/ChinaMax.json
+
 规则链接: https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/ChinaMax/ChinaMax.srs
 
