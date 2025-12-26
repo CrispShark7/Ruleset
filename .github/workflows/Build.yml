@@ -20,6 +20,20 @@ jobs:
       - name: Clone
         run: bash Ruleset/Build.sh
 
+      - name: Egern
+        run: |
+          for dir in Ruleset/Egern; do
+            [ ! -d "$dir" ] && echo "$dir not found." && continue
+            python Ruleset/Build.py Egern "$dir"
+          done
+
+      - name: Singbox
+        run: |
+          for dir in Scripts/Singbox; do
+            [ ! -d "$dir" ] && echo "$dir not found." && continue
+            python Ruleset/Build.py Singbox "$dir"
+          done
+
       - name: Push Update
         run: |
           cd Ruleset
