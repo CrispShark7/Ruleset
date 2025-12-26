@@ -4,7 +4,12 @@ set -euo pipefail
 
 repository="$(basename "$GITHUB_REPOSITORY")"
 
+rm -rf ios_rule_script
+
+git clone -q https://github.com/blackmatrix7/ios_rule_script.git ios_rule_script
+
 if [[ "$repository" == "Ruleset" ]]; then
+    echo "Execute in $repository Repository"
     rule_dirs=("Egern" "Singbox")
     for rule_path in "${rule_dirs[@]}"; do
         mkdir -p "$repository/$rule_path"
