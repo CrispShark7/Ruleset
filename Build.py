@@ -2,8 +2,6 @@
 
 import json
 import sys
-import re
-import ipaddress
 import argparse
 from pathlib import Path
 from collections import defaultdict
@@ -28,20 +26,25 @@ SINGBOX_RULE_MAP = {
     "IP-CIDR6": "ip_cidr"
 }
 
-def rules_load(file_path):
-    return [
-        tuple((line.strip().split(",", 2) + [""] * 3)[:3])
-        for line in file_path.read_text(encoding="utf-8").splitlines()
-        if line.strip() and not line.lstrip().startswith("#")
-    ]
+def rules_load(file_path: Path):
+    rule_data = []
+    for line in file_path.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if not line or line.startswith("#"):
+            continue
+        parts = line.split(",", 2)
+        while len(parts) < 3:
+            parts.append("")
+        rule_data.append(tuple(parts[:3]))
+    return rule_data
 
 def rules_write(file_path, rule_name, rule_count, rule_data, platform):
     if platform == "Singbox":
-        with file_path.open("w", encoding="utf-8") as f:
+        with file_path.open("w", encoding="utf-8", newline="\n") as f:
             json.dump(rule_data, f, indent=2, ensure_ascii=False)
             f.write("\n")
     else:
-        with file_path.open("w", encoding="utf-8") as f:
+        with file_path.open("w", encoding="utf-8", newline="\n") as f:
             f.write(f"# 规则名称: {rule_name}\n")
             f.write(f"# 规则统计: {rule_count}\n\n")
             f.writelines(f"{line}\n" for line in rule_data)
