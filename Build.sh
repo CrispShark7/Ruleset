@@ -7,7 +7,7 @@ repository="$(basename "$GITHUB_REPOSITORY")"
 echo "Execute in $repository Repository"
 
 rm -rf ios_rule_script
-git clone -q https://github.com/blackmatrix7/ios_rule_script.git ios_rule_script
+git clone -q --depth=1 https://github.com/blackmatrix7/ios_rule_script.git ios_rule_script
 
 rm -rf "$repository"/{Egern,Singbox}
 mkdir -p "$repository"/{Egern,Singbox}
