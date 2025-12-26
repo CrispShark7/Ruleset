@@ -22,13 +22,13 @@ jobs:
         run: |
           bash Ruleset/Build.sh
 
-      - name: Egern
+      - name: Ruleset
         run: |
           python Ruleset/Build.py Egern Ruleset/Egern
-
-      - name: Singbox
-        run: |
           python Ruleset/Build.py Singbox Ruleset/Singbox
+
+      - name: Compile
+        run: |
           curl -fsSL -o sing-box.tar.gz "https://github.com/SagerNet/sing-box/releases/download/v${SING_BOX_VERSION}/sing-box-${SING_BOX_VERSION}-linux-amd64.tar.gz"
           tar -xzf sing-box.tar.gz
           chmod +x "sing-box-${SING_BOX_VERSION}-linux-amd64/sing-box"
