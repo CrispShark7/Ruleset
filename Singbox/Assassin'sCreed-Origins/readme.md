@@ -1,0 +1,5 @@
+# 🧸 Assassin'sCreed-Origins
+
+规则链接: https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/Assassin'sCreed-Origins/Assassin'sCreed-Origins.json
+
+规则链接: https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/Assassin'sCreed-Origins/Assassin'sCreed-Origins.srs
