@@ -65,11 +65,12 @@ def process_egern(file_path: Path):
         output.extend(f"  - {value}" for value in rule_list)
     rule_count = sum(line.startswith("  - ") for line in output)
     rules_write(file_path, rule_name, rule_count, output, platform="Egern")
+    platform_root = file_path.parents[1]
+    relative_path = file_path.relative_to(platform_root.parent)
     readme_file = file_path.parent / "readme.md"
-    relative_path = file_path.relative_to(file_path.parents[2])
     with readme_file.open("w", encoding="utf-8", newline="\n") as f:
         f.write(f"# 🧸 {rule_name}\n\n")
-        f.write(f"规则链接: https://raw.githubusercontent.com/CrispShark7/Ruleset/master/{relative_path.as_posix()}")
+        f.write(f"规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/{relative_path.as_posix()}")
 
 def process_singbox(file_path: Path):
     rule_name = file_path.stem
@@ -82,12 +83,14 @@ def process_singbox(file_path: Path):
     rule_list = [{rtype: values} for rtype, values in rule_data.items()]
     output = {"version": 3, "rules": rule_list}
     rules_write(file_path, platform="Singbox", rule_data=output)
+    platform_root = file_path.parents[1]  # Singbox
+    json_relative = file_path.relative_to(platform_root.parent)
+    srs_relative = file_path.with_suffix(".srs").relative_to(platform_root.parent)
     readme_file = file_path.parent / "readme.md"
-    srs_path = file_path.with_suffix(".srs").relative_to(file_path.parents[2])
     with readme_file.open("w", encoding="utf-8") as f:
         f.write(f"# 🧸 {rule_name}\n\n")
-        f.write(f"规则链接: https://raw.githubusercontent.com/CrispShark7/Ruleset/master/{file_path.relative_to(file_path.parents[2]).as_posix()}\n\n")
-        f.write(f"规则链接: https://raw.githubusercontent.com/CrispShark7/Ruleset/master/{srs_path.as_posix()}")
+        f.write(f"规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/{json_relative.as_posix()}\n")
+        f.write(f"规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/{srs_relative.as_posix()}")
 
 def main():
     parser = argparse.ArgumentParser(description="规则构建工具")
