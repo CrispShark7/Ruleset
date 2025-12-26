@@ -20,5 +20,4 @@ while IFS= read -r -d '' file; do
     cp "$file" "$repository/Singbox/${rel_path%.list}.json"
 done < <(find ios_rule_script/rule/Clash -mindepth 1 -type f -name "*.list" -print0)
 
-echo "Copied and renamed all rules to $repository/Egern and $repository/Singbox"
 echo "$repository Repository: All Ruleset Processed!"
