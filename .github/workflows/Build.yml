@@ -29,7 +29,7 @@ jobs:
 
       - name: Singbox
         run: |
-          for dir in Scripts/Singbox; do
+          for dir in Ruleset/Singbox; do
             [ ! -d "$dir" ] && echo "$dir not found." && continue
             python Ruleset/Build.py Singbox "$dir"
           done
