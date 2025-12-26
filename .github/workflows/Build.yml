@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       TZ: "Asia/Shanghai"
+      SING_BOX_VERSION: "1.12.12"
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v6.0.1
@@ -33,6 +34,16 @@ jobs:
             [ ! -d "$dir" ] && echo "$dir not found." && continue
             python Ruleset/Build.py Singbox "$dir"
           done
+          curl -fsSL -o sing-box.tar.gz "https://github.com/SagerNet/sing-box/releases/download/v${SING_BOX_VERSION}/sing-box-${SING_BOX_VERSION}-linux-amd64.tar.gz"
+          tar -xzf sing-box.tar.gz
+          chmod +x "sing-box-${SING_BOX_VERSION}-linux-amd64/sing-box"
+          sudo  mv "sing-box-${SING_BOX_VERSION}-linux-amd64/sing-box" /usr/local/bin/sing-box
+          sing-box version
+          for file in Ruleset/Singbox/*/*.json; do
+            [ ! -f "$file" ] && echo "$file not found." && continue
+            sing-box rule-set compile "$file" -o "${file%.json}.srs"
+          done
+          rm -rf sing-box.tar.gz "sing-box-${SING_BOX_VERSION}-linux-amd64"
 
       - name: Push Update
         run: |
