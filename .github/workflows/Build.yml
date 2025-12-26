@@ -19,7 +19,7 @@ jobs:
           path: Ruleset
 
       - name: Build & Process Rules
-        working-directory: ./Scripts
+        working-directory: ../Scripts
         run: |
           bash Build.sh
           python Build.py Egern ../Ruleset/Egern
