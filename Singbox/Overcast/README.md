@@ -1,4 +1,0 @@
-### Overcast
-
-https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Overcast/Overcast.json
-
