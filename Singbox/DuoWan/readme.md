@@ -1,5 +1,4 @@
 # 🧸 DuoWan
 
-规则链接: https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/DuoWan/DuoWan.json
-
-规则链接: https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/DuoWan/DuoWan.srs
+规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/DuoWan/DuoWan.json
+规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/DuoWan/DuoWan.srs

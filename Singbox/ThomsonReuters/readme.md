@@ -1,5 +1,4 @@
 # 🧸 ThomsonReuters
 
-规则链接: https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/ThomsonReuters/ThomsonReuters.json
-
-规则链接: https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/ThomsonReuters/ThomsonReuters.srs
+规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/ThomsonReuters/ThomsonReuters.json
+规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/ThomsonReuters/ThomsonReuters.srs

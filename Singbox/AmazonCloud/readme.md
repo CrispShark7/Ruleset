@@ -1,5 +1,0 @@
-# 🧸 AmazonCloud
-
-规则链接: https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/AmazonCloud/AmazonCloud.json
-
-规则链接: https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/AmazonCloud/AmazonCloud.srs

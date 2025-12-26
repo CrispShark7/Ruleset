@@ -1,3 +1,3 @@
 # 🧸 Qyyjt
 
-规则链接: https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Egern/Qyyjt/Qyyjt.yaml
+规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Egern/Qyyjt/Qyyjt.yaml

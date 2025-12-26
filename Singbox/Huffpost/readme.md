@@ -1,5 +1,4 @@
 # 🧸 Huffpost
 
-规则链接: https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/Huffpost/Huffpost.json
-
-规则链接: https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/Huffpost/Huffpost.srs
+规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Huffpost/Huffpost.json
+规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Huffpost/Huffpost.srs

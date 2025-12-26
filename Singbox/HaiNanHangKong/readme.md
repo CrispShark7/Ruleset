@@ -1,5 +1,4 @@
 # 🧸 HaiNanHangKong
 
-规则链接: https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/HaiNanHangKong/HaiNanHangKong.json
-
-规则链接: https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/HaiNanHangKong/HaiNanHangKong.srs
+规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/HaiNanHangKong/HaiNanHangKong.json
+规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/HaiNanHangKong/HaiNanHangKong.srs

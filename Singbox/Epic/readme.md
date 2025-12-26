@@ -1,5 +1,4 @@
 # 🧸 Epic
 
-规则链接: https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/Epic/Epic.json
-
-规则链接: https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/Epic/Epic.srs
+规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Epic/Epic.json
+规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Epic/Epic.srs

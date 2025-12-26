@@ -1,5 +1,4 @@
 # 🧸 Dandanplay
 
-规则链接: https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/Dandanplay/Dandanplay.json
-
-规则链接: https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/Dandanplay/Dandanplay.srs
+规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Dandanplay/Dandanplay.json
+规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Dandanplay/Dandanplay.srs

@@ -1,3 +1,3 @@
 # 🧸 WanKaHuanJu
 
-规则链接: https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Egern/WanKaHuanJu/WanKaHuanJu.yaml
+规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Egern/WanKaHuanJu/WanKaHuanJu.yaml

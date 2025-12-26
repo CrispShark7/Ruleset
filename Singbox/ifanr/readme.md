@@ -1,5 +1,4 @@
 # 🧸 ifanr
 
-规则链接: https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/ifanr/ifanr.json
-
-规则链接: https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/ifanr/ifanr.srs
+规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/ifanr/ifanr.json
+规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/ifanr/ifanr.srs

@@ -1,5 +1,4 @@
 # 🧸 Douyu
 
-规则链接: https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/Douyu/Douyu.json
-
-规则链接: https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/Douyu/Douyu.srs
+规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Douyu/Douyu.json
+规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Douyu/Douyu.srs

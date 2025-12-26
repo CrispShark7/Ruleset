@@ -1,5 +1,4 @@
 # 🧸 Wikipedia
 
-规则链接: https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/Wikipedia/Wikipedia.json
-
-规则链接: https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/Wikipedia/Wikipedia.srs
+规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Wikipedia/Wikipedia.json
+规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Wikipedia/Wikipedia.srs
