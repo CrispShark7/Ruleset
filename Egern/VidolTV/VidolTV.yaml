@@ -1,7 +1,5 @@
-# NAME: VidolTV
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:17:00
-# DOMAIN-SUFFIX: 1
-# TOTAL: 1
-DOMAIN-SUFFIX,vidol.tv
+# 规则名称: VidolTV
+# 规则统计: 1
+
+domain_suffix_set:
+  - vidol.tv

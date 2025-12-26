@@ -1,17 +1,15 @@
-# NAME: GuiGuDongLi
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:17:34
-# DOMAIN-SUFFIX: 11
-# TOTAL: 11
-DOMAIN-SUFFIX,ciweekforum.com
-DOMAIN-SUFFIX,enet.com.cn
-DOMAIN-SUFFIX,enet16.cn
-DOMAIN-SUFFIX,enet16.com
-DOMAIN-SUFFIX,enet16.com.cn
-DOMAIN-SUFFIX,enet16.net
-DOMAIN-SUFFIX,enet369.com
-DOMAIN-SUFFIX,ezhu.cn
-DOMAIN-SUFFIX,ezhu.com
-DOMAIN-SUFFIX,mydor.com
-DOMAIN-SUFFIX,xingzhiheyi.com
+# 规则名称: GuiGuDongLi
+# 规则统计: 11
+
+domain_suffix_set:
+  - ciweekforum.com
+  - enet.com.cn
+  - enet16.cn
+  - enet16.com
+  - enet16.com.cn
+  - enet16.net
+  - enet369.com
+  - ezhu.cn
+  - ezhu.com
+  - mydor.com
+  - xingzhiheyi.com

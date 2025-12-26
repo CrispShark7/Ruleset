@@ -1,17 +1,20 @@
-# NAME: AnTianKeJi
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:17:31
-# DOMAIN-SUFFIX: 11
-# TOTAL: 11
-DOMAIN-SUFFIX,antiy.cn
-DOMAIN-SUFFIX,antiy.com
-DOMAIN-SUFFIX,antiy.net.cn
-DOMAIN-SUFFIX,antiycloud.com
-DOMAIN-SUFFIX,avlinsight.com
-DOMAIN-SUFFIX,avlsec.com
-DOMAIN-SUFFIX,avlyun.cn
-DOMAIN-SUFFIX,avlyun.com
-DOMAIN-SUFFIX,avlyun.net
-DOMAIN-SUFFIX,avlyun.org
-DOMAIN-SUFFIX,cloud-backup.com.cn
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain_suffix": [
+        "antiy.cn",
+        "antiy.com",
+        "antiy.net.cn",
+        "antiycloud.com",
+        "avlinsight.com",
+        "avlsec.com",
+        "avlyun.cn",
+        "avlyun.com",
+        "avlyun.net",
+        "avlyun.org",
+        "cloud-backup.com.cn"
+      ]
+    }
+  ]
+}

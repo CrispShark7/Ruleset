@@ -1,12 +1,10 @@
-# NAME: BOCOM
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:17:31
-# DOMAIN-SUFFIX: 6
-# TOTAL: 6
-DOMAIN-SUFFIX,95559.com.cn
-DOMAIN-SUFFIX,95559.sh.cn
-DOMAIN-SUFFIX,bankcomm.com
-DOMAIN-SUFFIX,bankcomm.com.au
-DOMAIN-SUFFIX,bankcomm.com.mo
-DOMAIN-SUFFIX,bankcomm.com.tw
+# 规则名称: BOCOM
+# 规则统计: 6
+
+domain_suffix_set:
+  - 95559.com.cn
+  - 95559.sh.cn
+  - bankcomm.com
+  - bankcomm.com.au
+  - bankcomm.com.mo
+  - bankcomm.com.tw

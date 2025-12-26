@@ -1,9 +1,12 @@
-# NAME: Disqus
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:17:43
-# DOMAIN-SUFFIX: 3
-# TOTAL: 3
-DOMAIN-SUFFIX,disqus.com
-DOMAIN-SUFFIX,disquscdn.com
-DOMAIN-SUFFIX,disqusservice.com
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain_suffix": [
+        "disqus.com",
+        "disquscdn.com",
+        "disqusservice.com"
+      ]
+    }
+  ]
+}

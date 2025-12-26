@@ -1,7 +1,10 @@
-# NAME: Flurry
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-01-08 16:02:55
-# DOMAIN-SUFFIX: 1
-# TOTAL: 1
-DOMAIN-SUFFIX,data.flurry.com
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain_suffix": [
+        "data.flurry.com"
+      ]
+    }
+  ]
+}

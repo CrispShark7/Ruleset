@@ -1,11 +1,14 @@
-# NAME: HuluJP
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:17:41
-# DOMAIN-SUFFIX: 5
-# TOTAL: 5
-DOMAIN-SUFFIX,happyon.jp
-DOMAIN-SUFFIX,hjholdings.jp
-DOMAIN-SUFFIX,hulu.jp
-DOMAIN-SUFFIX,streaks.jp
-DOMAIN-SUFFIX,yb.uncn.jp
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain_suffix": [
+        "happyon.jp",
+        "hjholdings.jp",
+        "hulu.jp",
+        "streaks.jp",
+        "yb.uncn.jp"
+      ]
+    }
+  ]
+}

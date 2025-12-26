@@ -1,12 +1,15 @@
-# NAME: Akamai
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:17:42
-# DOMAIN-SUFFIX: 6
-# TOTAL: 6
-DOMAIN-SUFFIX,akamai.com
-DOMAIN-SUFFIX,akamai.net
-DOMAIN-SUFFIX,akamaiedge.net
-DOMAIN-SUFFIX,akamaihd.net
-DOMAIN-SUFFIX,akamaistream.net
-DOMAIN-SUFFIX,akamaized.net
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain_suffix": [
+        "akamai.com",
+        "akamai.net",
+        "akamaiedge.net",
+        "akamaihd.net",
+        "akamaistream.net",
+        "akamaized.net"
+      ]
+    }
+  ]
+}

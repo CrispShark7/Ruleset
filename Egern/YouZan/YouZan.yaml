@@ -1,9 +1,7 @@
-# NAME: YouZan
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:17:40
-# DOMAIN-SUFFIX: 3
-# TOTAL: 3
-DOMAIN-SUFFIX,youzan.com
-DOMAIN-SUFFIX,youzanyun.com
-DOMAIN-SUFFIX,yzcdn.cn
+# 规则名称: YouZan
+# 规则统计: 3
+
+domain_suffix_set:
+  - youzan.com
+  - youzanyun.com
+  - yzcdn.cn

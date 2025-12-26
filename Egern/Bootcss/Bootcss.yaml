@@ -1,9 +1,7 @@
-# NAME: Bootcss
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:17:31
-# DOMAIN-SUFFIX: 3
-# TOTAL: 3
-DOMAIN-SUFFIX,bootcdn.cn
-DOMAIN-SUFFIX,bootcss.com
-DOMAIN-SUFFIX,phpcomposer.com
+# 规则名称: Bootcss
+# 规则统计: 3
+
+domain_suffix_set:
+  - bootcdn.cn
+  - bootcss.com
+  - phpcomposer.com

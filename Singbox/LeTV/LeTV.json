@@ -1,19 +1,22 @@
-# NAME: LeTV
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:17:36
-# DOMAIN-SUFFIX: 13
-# TOTAL: 13
-DOMAIN-SUFFIX,le.com
-DOMAIN-SUFFIX,lecloud.com
-DOMAIN-SUFFIX,lelecdn.com
-DOMAIN-SUFFIX,lemall.com
-DOMAIN-SUFFIX,letv.com
-DOMAIN-SUFFIX,letv8.com
-DOMAIN-SUFFIX,letvcdn.com
-DOMAIN-SUFFIX,letvcloud.com
-DOMAIN-SUFFIX,letvimg.com
-DOMAIN-SUFFIX,letvlive.com
-DOMAIN-SUFFIX,letvstore.com
-DOMAIN-SUFFIX,sanguowudi.com
-DOMAIN-SUFFIX,videougc.com
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain_suffix": [
+        "le.com",
+        "lecloud.com",
+        "lelecdn.com",
+        "lemall.com",
+        "letv.com",
+        "letv8.com",
+        "letvcdn.com",
+        "letvcloud.com",
+        "letvimg.com",
+        "letvlive.com",
+        "letvstore.com",
+        "sanguowudi.com",
+        "videougc.com"
+      ]
+    }
+  ]
+}

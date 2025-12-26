@@ -1,22 +1,25 @@
-# NAME: UPYun
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:17:39
-# DOMAIN-SUFFIX: 16
-# TOTAL: 16
-DOMAIN-SUFFIX,aicdn.com
-DOMAIN-SUFFIX,aicdn2.com
-DOMAIN-SUFFIX,aicdn3.com
-DOMAIN-SUFFIX,aicdn4.com
-DOMAIN-SUFFIX,aicdn5.com
-DOMAIN-SUFFIX,authbus.com
-DOMAIN-SUFFIX,oncdp.com
-DOMAIN-SUFFIX,shangketang.com
-DOMAIN-SUFFIX,shangzhibo.tv
-DOMAIN-SUFFIX,sktcdn.com
-DOMAIN-SUFFIX,upai.com
-DOMAIN-SUFFIX,upaiyun.com
-DOMAIN-SUFFIX,upcdn.net
-DOMAIN-SUFFIX,upyun.com
-DOMAIN-SUFFIX,yupoo.com
-DOMAIN-SUFFIX,zhidian-inc.cn
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain_suffix": [
+        "aicdn.com",
+        "aicdn2.com",
+        "aicdn3.com",
+        "aicdn4.com",
+        "aicdn5.com",
+        "authbus.com",
+        "oncdp.com",
+        "shangketang.com",
+        "shangzhibo.tv",
+        "sktcdn.com",
+        "upai.com",
+        "upaiyun.com",
+        "upcdn.net",
+        "upyun.com",
+        "yupoo.com",
+        "zhidian-inc.cn"
+      ]
+    }
+  ]
+}

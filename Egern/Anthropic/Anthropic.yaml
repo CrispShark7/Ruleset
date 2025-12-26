@@ -1,10 +1,8 @@
-# NAME: Anthropic
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-01-08 16:02:59
-# DOMAIN: 1
-# DOMAIN-SUFFIX: 2
-# TOTAL: 3
-DOMAIN,servd-anthropic-website.b-cdn.net
-DOMAIN-SUFFIX,anthropic.com
-DOMAIN-SUFFIX,claude.ai
+# 规则名称: Anthropic
+# 规则统计: 3
+
+domain_set:
+  - servd-anthropic-website.b-cdn.net
+domain_suffix_set:
+  - anthropic.com
+  - claude.ai

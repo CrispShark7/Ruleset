@@ -1,11 +1,9 @@
-# NAME: ZhongGuoShiHua
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:17:41
-# DOMAIN-SUFFIX: 5
-# TOTAL: 5
-DOMAIN-SUFFIX,sinopec-usa.com
-DOMAIN-SUFFIX,sinopec.com
-DOMAIN-SUFFIX,sinopecgroup.com
-DOMAIN-SUFFIX,sinopecnews.com.cn
-DOMAIN-SUFFIX,sinopecsales.com
+# 规则名称: ZhongGuoShiHua
+# 规则统计: 5
+
+domain_suffix_set:
+  - sinopec-usa.com
+  - sinopec.com
+  - sinopecgroup.com
+  - sinopecnews.com.cn
+  - sinopecsales.com

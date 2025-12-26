@@ -1,19 +1,17 @@
-# NAME: Anime
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-01-08 16:02:59
-# DOMAIN-SUFFIX: 13
-# TOTAL: 13
-DOMAIN-SUFFIX,9anime.cz
-DOMAIN-SUFFIX,9anime.id
-DOMAIN-SUFFIX,9anime.to
-DOMAIN-SUFFIX,9anime.ws
-DOMAIN-SUFFIX,animedao-tv.com
-DOMAIN-SUFFIX,crunchyroll.com
-DOMAIN-SUFFIX,funimation.com
-DOMAIN-SUFFIX,gogo-load.com
-DOMAIN-SUFFIX,gogoanime.vc
-DOMAIN-SUFFIX,gogoanime.wiki
-DOMAIN-SUFFIX,gogocdn.net
-DOMAIN-SUFFIX,hidive.com
-DOMAIN-SUFFIX,vrv.co
+# 规则名称: Anime
+# 规则统计: 13
+
+domain_suffix_set:
+  - 9anime.cz
+  - 9anime.id
+  - 9anime.to
+  - 9anime.ws
+  - animedao-tv.com
+  - crunchyroll.com
+  - funimation.com
+  - gogo-load.com
+  - gogoanime.vc
+  - gogoanime.wiki
+  - gogocdn.net
+  - hidive.com
+  - vrv.co

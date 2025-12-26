@@ -1,9 +1,7 @@
-# NAME: Roblox
-# AUTHOR: ooyq
-# REPO: https://github.com/ooyq
-# UPDATED: 2025-06-06 09:19:58
-# DOMAIN-KEYWORD: 1
-# DOMAIN-SUFFIX: 1
-# TOTAL: 2
-DOMAIN-SUFFIX,rbxcdn.com
-DOMAIN-KEYWORD,roblox
+# 规则名称: Roblox
+# 规则统计: 2
+
+domain_suffix_set:
+  - rbxcdn.com
+domain_keyword_set:
+  - roblox

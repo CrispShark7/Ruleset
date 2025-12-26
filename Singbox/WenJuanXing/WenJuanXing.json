@@ -1,10 +1,13 @@
-# NAME: WenJuanXing
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:17:39
-# DOMAIN-SUFFIX: 4
-# TOTAL: 4
-DOMAIN-SUFFIX,sojump.com
-DOMAIN-SUFFIX,wjx.cn
-DOMAIN-SUFFIX,wjx.com
-DOMAIN-SUFFIX,wjx.top
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain_suffix": [
+        "sojump.com",
+        "wjx.cn",
+        "wjx.com",
+        "wjx.top"
+      ]
+    }
+  ]
+}

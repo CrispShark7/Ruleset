@@ -1,12 +1,10 @@
-# NAME: HuaShuTV
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:17:34
-# DOMAIN-SUFFIX: 6
-# TOTAL: 6
-DOMAIN-SUFFIX,hzcnc.com
-DOMAIN-SUFFIX,hzdtv.tv
-DOMAIN-SUFFIX,hzman.net
-DOMAIN-SUFFIX,wasu.cn
-DOMAIN-SUFFIX,wasu.tv
-DOMAIN-SUFFIX,wasumedia.cn
+# 规则名称: HuaShuTV
+# 规则统计: 6
+
+domain_suffix_set:
+  - hzcnc.com
+  - hzdtv.tv
+  - hzman.net
+  - wasu.cn
+  - wasu.tv
+  - wasumedia.cn

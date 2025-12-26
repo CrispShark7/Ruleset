@@ -1,8 +1,11 @@
-# NAME: TeraBox
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:18:54
-# DOMAIN-SUFFIX: 2
-# TOTAL: 2
-DOMAIN-SUFFIX,terabox.com
-DOMAIN-SUFFIX,teraboxcdn.com
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain_suffix": [
+        "terabox.com",
+        "teraboxcdn.com"
+      ]
+    }
+  ]
+}

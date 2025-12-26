@@ -1,9 +1,12 @@
-# NAME: Vancl
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:17:39
-# DOMAIN-SUFFIX: 3
-# TOTAL: 3
-DOMAIN-SUFFIX,vancl.com
-DOMAIN-SUFFIX,vanclimg.com
-DOMAIN-SUFFIX,vcimg.com
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain_suffix": [
+        "vancl.com",
+        "vanclimg.com",
+        "vcimg.com"
+      ]
+    }
+  ]
+}

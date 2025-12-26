@@ -1,9 +1,12 @@
-# NAME: XueErSi
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:17:40
-# DOMAIN-SUFFIX: 3
-# TOTAL: 3
-DOMAIN-SUFFIX,speiyou.com
-DOMAIN-SUFFIX,xesimg.com
-DOMAIN-SUFFIX,xueersi.com
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain_suffix": [
+        "speiyou.com",
+        "xesimg.com",
+        "xueersi.com"
+      ]
+    }
+  ]
+}

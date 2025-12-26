@@ -1,14 +1,20 @@
-# NAME: Bahamut
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:16:56
-# DOMAIN: 1
-# DOMAIN-SUFFIX: 6
-# TOTAL: 7
-DOMAIN,bahamut.akamaized.net
-DOMAIN-SUFFIX,bahamut.com.tw
-DOMAIN-SUFFIX,digicert.com
-DOMAIN-SUFFIX,gamer.com.tw
-DOMAIN-SUFFIX,gvt1.com
-DOMAIN-SUFFIX,hinet.net
-DOMAIN-SUFFIX,viblast.com
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": [
+        "bahamut.akamaized.net"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "bahamut.com.tw",
+        "digicert.com",
+        "gamer.com.tw",
+        "gvt1.com",
+        "hinet.net",
+        "viblast.com"
+      ]
+    }
+  ]
+}

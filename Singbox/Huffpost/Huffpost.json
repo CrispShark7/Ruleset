@@ -1,24 +1,27 @@
-# NAME: Huffpost
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:16:58
-# DOMAIN-SUFFIX: 18
-# TOTAL: 18
-DOMAIN-SUFFIX,huffingtonpost.ca
-DOMAIN-SUFFIX,huffingtonpost.co.uk
-DOMAIN-SUFFIX,huffingtonpost.co.za
-DOMAIN-SUFFIX,huffingtonpost.com
-DOMAIN-SUFFIX,huffingtonpost.com.au
-DOMAIN-SUFFIX,huffingtonpost.com.mx
-DOMAIN-SUFFIX,huffingtonpost.de
-DOMAIN-SUFFIX,huffingtonpost.es
-DOMAIN-SUFFIX,huffingtonpost.fr
-DOMAIN-SUFFIX,huffingtonpost.gr
-DOMAIN-SUFFIX,huffingtonpost.in
-DOMAIN-SUFFIX,huffingtonpost.it
-DOMAIN-SUFFIX,huffingtonpost.jp
-DOMAIN-SUFFIX,huffingtonpost.kr
-DOMAIN-SUFFIX,huffpost.com
-DOMAIN-SUFFIX,huffpostarabi.com
-DOMAIN-SUFFIX,huffpostbrasil.com
-DOMAIN-SUFFIX,huffpostmaghreb.com
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain_suffix": [
+        "huffingtonpost.ca",
+        "huffingtonpost.co.uk",
+        "huffingtonpost.co.za",
+        "huffingtonpost.com",
+        "huffingtonpost.com.au",
+        "huffingtonpost.com.mx",
+        "huffingtonpost.de",
+        "huffingtonpost.es",
+        "huffingtonpost.fr",
+        "huffingtonpost.gr",
+        "huffingtonpost.in",
+        "huffingtonpost.it",
+        "huffingtonpost.jp",
+        "huffingtonpost.kr",
+        "huffpost.com",
+        "huffpostarabi.com",
+        "huffpostbrasil.com",
+        "huffpostmaghreb.com"
+      ]
+    }
+  ]
+}

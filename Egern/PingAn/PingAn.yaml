@@ -1,33 +1,31 @@
-# NAME: PingAn
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:17:37
-# DOMAIN-SUFFIX: 27
-# TOTAL: 27
-DOMAIN-SUFFIX,1010-0000.com
-DOMAIN-SUFFIX,18ebank.com
-DOMAIN-SUFFIX,1qianbao.cn
-DOMAIN-SUFFIX,1qianbao.com
-DOMAIN-SUFFIX,1qianbao.com.cn
-DOMAIN-SUFFIX,1qianbao.net
-DOMAIN-SUFFIX,4008000000.com
-DOMAIN-SUFFIX,4008824365.com
-DOMAIN-SUFFIX,4008880999.cn
-DOMAIN-SUFFIX,4008880999.com
-DOMAIN-SUFFIX,4008880999.net
-DOMAIN-SUFFIX,eka.cn
-DOMAIN-SUFFIX,ekapay.cn
-DOMAIN-SUFFIX,mingyuanfund.com
-DOMAIN-SUFFIX,olatop.cn
-DOMAIN-SUFFIX,olatop.com
-DOMAIN-SUFFIX,olatop.net
-DOMAIN-SUFFIX,pingan.com
-DOMAIN-SUFFIX,pingan.com.cn
-DOMAIN-SUFFIX,pingan.com.hk
-DOMAIN-SUFFIX,pinganonline.com.cn
-DOMAIN-SUFFIX,pinganventures.com
-DOMAIN-SUFFIX,yiqianbao.com.cn
-DOMAIN-SUFFIX,yiqianbao.net
-DOMAIN-SUFFIX,yqb.com
-DOMAIN-SUFFIX,yqbimg.com
-DOMAIN-SUFFIX,yqbimg.net
+# 规则名称: PingAn
+# 规则统计: 27
+
+domain_suffix_set:
+  - 1010-0000.com
+  - 18ebank.com
+  - 1qianbao.cn
+  - 1qianbao.com
+  - 1qianbao.com.cn
+  - 1qianbao.net
+  - 4008000000.com
+  - 4008824365.com
+  - 4008880999.cn
+  - 4008880999.com
+  - 4008880999.net
+  - eka.cn
+  - ekapay.cn
+  - mingyuanfund.com
+  - olatop.cn
+  - olatop.com
+  - olatop.net
+  - pingan.com
+  - pingan.com.cn
+  - pingan.com.hk
+  - pinganonline.com.cn
+  - pinganventures.com
+  - yiqianbao.com.cn
+  - yiqianbao.net
+  - yqb.com
+  - yqbimg.com
+  - yqbimg.net

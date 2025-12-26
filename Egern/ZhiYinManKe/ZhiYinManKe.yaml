@@ -1,23 +1,21 @@
-# NAME: ZhiYinManKe
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:18:24
-# DOMAIN-SUFFIX: 17
-# TOTAL: 17
-DOMAIN-SUFFIX,51kanmanhua.com
-DOMAIN-SUFFIX,mkdata.top
-DOMAIN-SUFFIX,mkpush.com
-DOMAIN-SUFFIX,mkzcdn.com
-DOMAIN-SUFFIX,mkzhan.cn
-DOMAIN-SUFFIX,mkzhan.com
-DOMAIN-SUFFIX,mkzhan.com.cn
-DOMAIN-SUFFIX,mkzhan.net
-DOMAIN-SUFFIX,xiaomingtaiji.cc
-DOMAIN-SUFFIX,xiaomingtaiji.cn
-DOMAIN-SUFFIX,xiaomingtaiji.com
-DOMAIN-SUFFIX,xiaomingtaiji.com.cn
-DOMAIN-SUFFIX,xiaomingtaiji.net
-DOMAIN-SUFFIX,xiaoshuohui.com.cn
-DOMAIN-SUFFIX,xiaoshuohui.net
-DOMAIN-SUFFIX,zymk.cn
-DOMAIN-SUFFIX,zymkcdn.com
+# 规则名称: ZhiYinManKe
+# 规则统计: 17
+
+domain_suffix_set:
+  - 51kanmanhua.com
+  - mkdata.top
+  - mkpush.com
+  - mkzcdn.com
+  - mkzhan.cn
+  - mkzhan.com
+  - mkzhan.com.cn
+  - mkzhan.net
+  - xiaomingtaiji.cc
+  - xiaomingtaiji.cn
+  - xiaomingtaiji.com
+  - xiaomingtaiji.com.cn
+  - xiaomingtaiji.net
+  - xiaoshuohui.com.cn
+  - xiaoshuohui.net
+  - zymk.cn
+  - zymkcdn.com

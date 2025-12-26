@@ -1,10 +1,13 @@
-# NAME: NGA
-# AUTHOR: ameyukisora
-# REPO: https://github.com/ameyukisora/Clash-Rule
-# UPDATED: 2024-01-08 16:02:03
-# DOMAIN-SUFFIX: 4
-# TOTAL: 4
-DOMAIN-SUFFIX,178.com
-DOMAIN-SUFFIX,nga.cn
-DOMAIN-SUFFIX,ngabbs.com
-DOMAIN-SUFFIX,ngacn.cc
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain_suffix": [
+        "178.com",
+        "nga.cn",
+        "ngabbs.com",
+        "ngacn.cc"
+      ]
+    }
+  ]
+}

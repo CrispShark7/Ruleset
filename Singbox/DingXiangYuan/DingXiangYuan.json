@@ -1,22 +1,25 @@
-# NAME: DingXiangYuan
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:17:33
-# DOMAIN-SUFFIX: 16
-# TOTAL: 16
-DOMAIN-SUFFIX,0dxy.cn
-DOMAIN-SUFFIX,biomart.cn
-DOMAIN-SUFFIX,centerwatch.cn
-DOMAIN-SUFFIX,crou.cn
-DOMAIN-SUFFIX,dxy.cn
-DOMAIN-SUFFIX,dxy.com
-DOMAIN-SUFFIX,dxy.me
-DOMAIN-SUFFIX,dxy.net
-DOMAIN-SUFFIX,dxycdn.com
-DOMAIN-SUFFIX,dxyer.cn
-DOMAIN-SUFFIX,dxyer.com
-DOMAIN-SUFFIX,guanlannet.com
-DOMAIN-SUFFIX,jobmd.cn
-DOMAIN-SUFFIX,linkmed.com.cn
-DOMAIN-SUFFIX,mdnews.cn
-DOMAIN-SUFFIX,pubmed.cn
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain_suffix": [
+        "0dxy.cn",
+        "biomart.cn",
+        "centerwatch.cn",
+        "crou.cn",
+        "dxy.cn",
+        "dxy.com",
+        "dxy.me",
+        "dxy.net",
+        "dxycdn.com",
+        "dxyer.cn",
+        "dxyer.com",
+        "guanlannet.com",
+        "jobmd.cn",
+        "linkmed.com.cn",
+        "mdnews.cn",
+        "pubmed.cn"
+      ]
+    }
+  ]
+}

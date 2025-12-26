@@ -1,8 +1,11 @@
-# NAME: AFP
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:16:57
-# DOMAIN-SUFFIX: 2
-# TOTAL: 2
-DOMAIN-SUFFIX,afp.com
-DOMAIN-SUFFIX,afpforum.com
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain_suffix": [
+        "afp.com",
+        "afpforum.com"
+      ]
+    }
+  ]
+}

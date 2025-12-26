@@ -1,9 +1,7 @@
-# NAME: Jfrog
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:17:45
-# DOMAIN-SUFFIX: 3
-# TOTAL: 3
-DOMAIN-SUFFIX,bintray.com
-DOMAIN-SUFFIX,jfrog.com
-DOMAIN-SUFFIX,jfrog.org
+# 规则名称: Jfrog
+# 规则统计: 3
+
+domain_suffix_set:
+  - bintray.com
+  - jfrog.com
+  - jfrog.org

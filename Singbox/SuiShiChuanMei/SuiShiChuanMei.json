@@ -1,20 +1,23 @@
-# NAME: SuiShiChuanMei
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:17:38
-# DOMAIN-SUFFIX: 14
-# TOTAL: 14
-DOMAIN-SUFFIX,91friend.com
-DOMAIN-SUFFIX,adsit.cn
-DOMAIN-SUFFIX,aojiamarly.com
-DOMAIN-SUFFIX,ebaidutv.com
-DOMAIN-SUFFIX,mipujia.cn
-DOMAIN-SUFFIX,mipujia.com
-DOMAIN-SUFFIX,mobhui.cn
-DOMAIN-SUFFIX,mobhui.com
-DOMAIN-SUFFIX,quyaoya.cn
-DOMAIN-SUFFIX,quyaoya.com
-DOMAIN-SUFFIX,smartsocial.cn
-DOMAIN-SUFFIX,socialjia.com
-DOMAIN-SUFFIX,socialpls.com
-DOMAIN-SUFFIX,weibopie.com
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain_suffix": [
+        "91friend.com",
+        "adsit.cn",
+        "aojiamarly.com",
+        "ebaidutv.com",
+        "mipujia.cn",
+        "mipujia.com",
+        "mobhui.cn",
+        "mobhui.com",
+        "quyaoya.cn",
+        "quyaoya.com",
+        "smartsocial.cn",
+        "socialjia.com",
+        "socialpls.com",
+        "weibopie.com"
+      ]
+    }
+  ]
+}

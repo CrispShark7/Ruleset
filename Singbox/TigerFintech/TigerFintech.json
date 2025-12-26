@@ -1,14 +1,17 @@
-# NAME: TigerFintech
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:17:39
-# DOMAIN-SUFFIX: 8
-# TOTAL: 8
-DOMAIN-SUFFIX,itiger.com
-DOMAIN-SUFFIX,laohu8.com
-DOMAIN-SUFFIX,tigerbbs.cn
-DOMAIN-SUFFIX,tigerbbs.com
-DOMAIN-SUFFIX,tigerfintech.com
-DOMAIN-SUFFIX,xiaohu8.com
-DOMAIN-SUFFIX,zhijianfengyi.cn
-DOMAIN-SUFFIX,zhijianfengyi.com
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain_suffix": [
+        "itiger.com",
+        "laohu8.com",
+        "tigerbbs.cn",
+        "tigerbbs.com",
+        "tigerfintech.com",
+        "xiaohu8.com",
+        "zhijianfengyi.cn",
+        "zhijianfengyi.com"
+      ]
+    }
+  ]
+}

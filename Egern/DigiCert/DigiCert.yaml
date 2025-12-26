@@ -1,20 +1,18 @@
-# NAME: DigiCert
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:17:43
-# DOMAIN-SUFFIX: 14
-# TOTAL: 14
-DOMAIN-SUFFIX,dcocsp.cn
-DOMAIN-SUFFIX,digicert-cn.com
-DOMAIN-SUFFIX,digicert-validation.com
-DOMAIN-SUFFIX,digicert.cn
-DOMAIN-SUFFIX,digicert.com
-DOMAIN-SUFFIX,digitalcertvalidation.com
-DOMAIN-SUFFIX,freessl.com
-DOMAIN-SUFFIX,geotrust.com
-DOMAIN-SUFFIX,public-trust.com
-DOMAIN-SUFFIX,quovadisglobal.com
-DOMAIN-SUFFIX,rapidssl.com
-DOMAIN-SUFFIX,thawte.com
-DOMAIN-SUFFIX,thawte.de
-DOMAIN-SUFFIX,thawte.fr
+# 规则名称: DigiCert
+# 规则统计: 14
+
+domain_suffix_set:
+  - dcocsp.cn
+  - digicert-cn.com
+  - digicert-validation.com
+  - digicert.cn
+  - digicert.com
+  - digitalcertvalidation.com
+  - freessl.com
+  - geotrust.com
+  - public-trust.com
+  - quovadisglobal.com
+  - rapidssl.com
+  - thawte.com
+  - thawte.de
+  - thawte.fr

@@ -1,10 +1,13 @@
-# NAME: HP
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:17:44
-# DOMAIN-SUFFIX: 4
-# TOTAL: 4
-DOMAIN-SUFFIX,hp.com
-DOMAIN-SUFFIX,hpstore-china.com
-DOMAIN-SUFFIX,hpstore.com
-DOMAIN-SUFFIX,hpstore.corpmerchandise.com
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain_suffix": [
+        "hp.com",
+        "hpstore-china.com",
+        "hpstore.com",
+        "hpstore.corpmerchandise.com"
+      ]
+    }
+  ]
+}

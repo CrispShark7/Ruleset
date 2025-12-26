@@ -1,9 +1,7 @@
-# NAME: ShiNongZhiKe
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:17:38
-# DOMAIN-SUFFIX: 3
-# TOTAL: 3
-DOMAIN-SUFFIX,senseagro.cn
-DOMAIN-SUFFIX,senseagro.com
-DOMAIN-SUFFIX,senseagro.com.cn
+# 规则名称: ShiNongZhiKe
+# 规则统计: 3
+
+domain_suffix_set:
+  - senseagro.cn
+  - senseagro.com
+  - senseagro.com.cn

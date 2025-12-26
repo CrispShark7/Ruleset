@@ -1,23 +1,26 @@
-# NAME: CNKI
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:17:32
-# DOMAIN-SUFFIX: 17
-# TOTAL: 17
-DOMAIN-SUFFIX,bbf.org.cn
-DOMAIN-SUFFIX,bjsbnet.com
-DOMAIN-SUFFIX,chndoi.cn
-DOMAIN-SUFFIX,chndoi.com
-DOMAIN-SUFFIX,chndoi.com.cn
-DOMAIN-SUFFIX,chndoi.net
-DOMAIN-SUFFIX,chndoi.org
-DOMAIN-SUFFIX,cnki.net
-DOMAIN-SUFFIX,cnkidoi.cn
-DOMAIN-SUFFIX,cnkidoi.com
-DOMAIN-SUFFIX,cnkidoi.net
-DOMAIN-SUFFIX,cnkidoi.org
-DOMAIN-SUFFIX,wuxizazhi.cn
-DOMAIN-SUFFIX,wuxizazhi.com
-DOMAIN-SUFFIX,wuxizazhi.com.cn
-DOMAIN-SUFFIX,wuxizazhi.net
-DOMAIN-SUFFIX,wuxizazhi.net.cn
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain_suffix": [
+        "bbf.org.cn",
+        "bjsbnet.com",
+        "chndoi.cn",
+        "chndoi.com",
+        "chndoi.com.cn",
+        "chndoi.net",
+        "chndoi.org",
+        "cnki.net",
+        "cnkidoi.cn",
+        "cnkidoi.com",
+        "cnkidoi.net",
+        "cnkidoi.org",
+        "wuxizazhi.cn",
+        "wuxizazhi.com",
+        "wuxizazhi.com.cn",
+        "wuxizazhi.net",
+        "wuxizazhi.net.cn"
+      ]
+    }
+  ]
+}

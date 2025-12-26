@@ -1,10 +1,8 @@
-# NAME: DiSiFanShi
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:17:33
-# DOMAIN-SUFFIX: 4
-# TOTAL: 4
-DOMAIN-SUFFIX,4paradigm.com
-DOMAIN-SUFFIX,aihero100.com
-DOMAIN-SUFFIX,tuijianxitong.cn
-DOMAIN-SUFFIX,v1zhushou.com
+# 规则名称: DiSiFanShi
+# 规则统计: 4
+
+domain_suffix_set:
+  - 4paradigm.com
+  - aihero100.com
+  - tuijianxitong.cn
+  - v1zhushou.com

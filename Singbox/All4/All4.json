@@ -1,8 +1,11 @@
-# NAME: All4
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:16:57
-# DOMAIN-SUFFIX: 2
-# TOTAL: 2
-DOMAIN-SUFFIX,c4assets.com
-DOMAIN-SUFFIX,channel4.com
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain_suffix": [
+        "c4assets.com",
+        "channel4.com"
+      ]
+    }
+  ]
+}
