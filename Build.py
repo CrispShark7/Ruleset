@@ -89,7 +89,7 @@ def process_singbox(file_path: Path):
     with readme_file.open("w", encoding="utf-8") as f:
         f.write(
             f"# 🧸 {rule_name}\n\n"
-            f"规则链接: https://raw.githubusercontent.com/CrispShark7/Ruleset/master/{file_path.relative_to(file_path.parents[2]).as_posix()}\n"
+            f"规则链接: https://raw.githubusercontent.com/CrispShark7/Ruleset/master/{file_path.relative_to(file_path.parents[2]).as_posix()}\n\n"
             f"规则链接: https://raw.githubusercontent.com/CrispShark7/Ruleset/master/{srs_path.as_posix()}\n\n"
         )
 
