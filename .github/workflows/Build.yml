@@ -3,7 +3,7 @@ name: Build
 on:
   workflow_dispatch:
   schedule:
-    - cron: "5 0,12 * * *"
+    - cron: "0 0 * * *"
 
 jobs:
   Build:
@@ -21,20 +21,19 @@ jobs:
         run: |
           for dir in Ruleset/Egern; do
             [ ! -d "$dir" ] && echo "$dir not found." && continue
-            python Build.py Surge --type --order "$dir"
+            python Build.py Egern "$dir"
           done
-    
+
       - name: Singbox
         run: |
           for dir in Ruleset/Singbox; do
             [ ! -d "$dir" ] && echo "$dir not found." && continue
-            python Build.py Surge --type --order "$dir"
+            python Build.py Singbox "$dir"
           done
-       
 
       - name: Push Update
         run: |
-          cd Scripts
+          cd Ruleset
           if [[ -n $(git status -s) ]]; then
             git config --local user.email "${{ github.actor }}@users.noreply.github.com"
             git config --local user.name "${{ github.actor }}"
