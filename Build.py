@@ -65,8 +65,8 @@ def process_egern(file_path: Path):
         output.extend(f"  - {value}" for value in rule_list)
     rule_count = sum(line.startswith("  - ") for line in output)
     rules_write(file_path, rule_name, rule_count, output, platform="Egern")
-    platform_root = file_path.parents[2]
-    relative_path = file_path.relative_to(platform_root)
+    platform_root = next(p for p in file_path.parents if p.name == "Egern")
+    relative_path = file_path.relative_to(platform_root.parent)
     readme_file = file_path.parent / "readme.md"
     with readme_file.open("w", encoding="utf-8", newline="\n") as f:
         f.write(f"# 🧸 {rule_name}\n\n")
@@ -83,9 +83,9 @@ def process_singbox(file_path: Path):
     rule_list = [{rtype: values} for rtype, values in rule_data.items()]
     output = {"version": 3, "rules": rule_list}
     rules_write(file_path, platform="Singbox", rule_data=output)
-    platform_root = file_path.parents[2]
-    json_relative = file_path.relative_to(platform_root)
-    srs_relative = file_path.with_suffix(".srs").relative_to(platform_root)
+    platform_root = next(p for p in file_path.parents if p.name == "Singbox")
+    json_relative = file_path.relative_to(platform_root.parent)
+    srs_relative = file_path.with_suffix(".srs").relative_to(platform_root.parent)
     readme_file = file_path.parent / "readme.md"
     with readme_file.open("w", encoding="utf-8") as f:
         f.write(f"# 🧸 {rule_name}\n\n")
