@@ -1,3 +1,3 @@
 # 🧸 Duolingo
 
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Egern/Duolingo/Duolingo.yaml
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Egern/Duolingo/Duolingo.yaml

@@ -1,4 +1,5 @@
 # 🧸 YiXiaKeJi
 
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/YiXiaKeJi/YiXiaKeJi.json
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/YiXiaKeJi/YiXiaKeJi.srs
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/YiXiaKeJi/YiXiaKeJi.json
+
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/YiXiaKeJi/YiXiaKeJi.srs

@@ -1,4 +1,5 @@
 # 🧸 Twitch
 
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Twitch/Twitch.json
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Twitch/Twitch.srs
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/Twitch/Twitch.json
+
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/Twitch/Twitch.srs

@@ -1,4 +1,5 @@
 # 🧸 360Cloud
 
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Cloud/360Cloud/360Cloud.json
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Cloud/360Cloud/360Cloud.srs
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Cloud/360Cloud/360Cloud.json
+
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Cloud/360Cloud/360Cloud.srs

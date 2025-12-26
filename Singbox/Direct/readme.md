@@ -1,4 +1,5 @@
 # 🧸 Direct
 
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Direct/Direct.json
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Direct/Direct.srs
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/Direct/Direct.json
+
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/Direct/Direct.srs

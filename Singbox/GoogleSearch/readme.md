@@ -1,4 +1,5 @@
 # 🧸 GoogleSearch
 
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/GoogleSearch/GoogleSearch.json
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/GoogleSearch/GoogleSearch.srs
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/GoogleSearch/GoogleSearch.json
+
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/GoogleSearch/GoogleSearch.srs

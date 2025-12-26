@@ -1,4 +1,5 @@
 # 🧸 TianWeiChengXin
 
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/TianWeiChengXin/TianWeiChengXin.json
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/TianWeiChengXin/TianWeiChengXin.srs
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/TianWeiChengXin/TianWeiChengXin.json
+
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/TianWeiChengXin/TianWeiChengXin.srs

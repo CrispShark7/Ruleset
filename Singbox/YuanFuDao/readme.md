@@ -1,4 +1,5 @@
 # 🧸 YuanFuDao
 
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/YuanFuDao/YuanFuDao.json
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/YuanFuDao/YuanFuDao.srs
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/YuanFuDao/YuanFuDao.json
+
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/YuanFuDao/YuanFuDao.srs

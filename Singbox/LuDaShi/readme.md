@@ -1,4 +1,5 @@
 # 🧸 LuDaShi
 
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/LuDaShi/LuDaShi.json
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/LuDaShi/LuDaShi.srs
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/LuDaShi/LuDaShi.json
+
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/LuDaShi/LuDaShi.srs

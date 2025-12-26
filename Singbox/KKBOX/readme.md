@@ -1,4 +1,5 @@
 # 🧸 KKBOX
 
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/KKBOX/KKBOX.json
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/KKBOX/KKBOX.srs
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/KKBOX/KKBOX.json
+
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/KKBOX/KKBOX.srs

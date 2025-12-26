@@ -1,4 +1,5 @@
 # 🧸 NGA
 
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/NGA/NGA.json
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/NGA/NGA.srs
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/NGA/NGA.json
+
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/NGA/NGA.srs

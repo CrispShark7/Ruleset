@@ -1,3 +1,3 @@
 # 🧸 Emojipedia
 
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Egern/Emojipedia/Emojipedia.yaml
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Egern/Emojipedia/Emojipedia.yaml

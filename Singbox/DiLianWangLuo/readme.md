@@ -1,4 +1,5 @@
 # 🧸 DiLianWangLuo
 
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/DiLianWangLuo/DiLianWangLuo.json
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/DiLianWangLuo/DiLianWangLuo.srs
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/DiLianWangLuo/DiLianWangLuo.json
+
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/DiLianWangLuo/DiLianWangLuo.srs

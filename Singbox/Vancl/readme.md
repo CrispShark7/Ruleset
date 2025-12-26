@@ -1,4 +1,5 @@
 # 🧸 Vancl
 
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Vancl/Vancl.json
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Vancl/Vancl.srs
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/Vancl/Vancl.json
+
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/Vancl/Vancl.srs

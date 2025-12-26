@@ -1,4 +1,5 @@
 # 🧸 JingDong
 
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/JingDong/JingDong.json
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/JingDong/JingDong.srs
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/JingDong/JingDong.json
+
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/JingDong/JingDong.srs

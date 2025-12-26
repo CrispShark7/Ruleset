@@ -1,4 +1,5 @@
 # 🧸 Canon
 
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Canon/Canon.json
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Canon/Canon.srs
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/Canon/Canon.json
+
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/Canon/Canon.srs

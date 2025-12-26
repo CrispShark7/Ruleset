@@ -1,4 +1,5 @@
 # 🧸 Instagram
 
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Instagram/Instagram.json
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Instagram/Instagram.srs
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/Instagram/Instagram.json
+
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/Instagram/Instagram.srs

@@ -1,4 +1,5 @@
 # 🧸 WanMeiShiJie
 
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/WanMeiShiJie/WanMeiShiJie.json
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/WanMeiShiJie/WanMeiShiJie.srs
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/WanMeiShiJie/WanMeiShiJie.json
+
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/WanMeiShiJie/WanMeiShiJie.srs

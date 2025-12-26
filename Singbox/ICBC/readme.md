@@ -1,4 +1,5 @@
 # 🧸 ICBC
 
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/ICBC/ICBC.json
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/ICBC/ICBC.srs
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/ICBC/ICBC.json
+
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/ICBC/ICBC.srs

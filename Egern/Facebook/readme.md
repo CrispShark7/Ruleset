@@ -1,3 +1,3 @@
 # 🧸 Facebook
 
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Egern/Facebook/Facebook.yaml
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Egern/Facebook/Facebook.yaml

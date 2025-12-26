@@ -1,4 +1,5 @@
 # 🧸 ChinaNoMedia
 
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/ChinaNoMedia/ChinaNoMedia.json
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/ChinaNoMedia/ChinaNoMedia.srs
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/ChinaNoMedia/ChinaNoMedia.json
+
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/ChinaNoMedia/ChinaNoMedia.srs

@@ -1,4 +1,5 @@
 # 🧸 DiscoveryPlus
 
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/DiscoveryPlus/DiscoveryPlus.json
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/DiscoveryPlus/DiscoveryPlus.srs
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/DiscoveryPlus/DiscoveryPlus.json
+
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/DiscoveryPlus/DiscoveryPlus.srs

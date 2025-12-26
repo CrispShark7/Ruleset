@@ -1,4 +1,5 @@
 # 🧸 ChinaIPsTest
 
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/ChinaIPs/ChinaIPsTest/ChinaIPsTest.json
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/ChinaIPs/ChinaIPsTest/ChinaIPsTest.srs
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/ChinaIPs/ChinaIPsTest/ChinaIPsTest.json
+
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/ChinaIPs/ChinaIPsTest/ChinaIPsTest.srs

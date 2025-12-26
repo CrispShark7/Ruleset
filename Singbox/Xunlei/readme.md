@@ -1,4 +1,5 @@
 # 🧸 Xunlei
 
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Xunlei/Xunlei.json
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Xunlei/Xunlei.srs
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/Xunlei/Xunlei.json
+
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/Xunlei/Xunlei.srs

@@ -1,4 +1,5 @@
 # 🧸 VidolTV
 
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/VidolTV/VidolTV.json
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/VidolTV/VidolTV.srs
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/VidolTV/VidolTV.json
+
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/VidolTV/VidolTV.srs

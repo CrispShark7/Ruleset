@@ -1,4 +1,5 @@
 # 🧸 Discord
 
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Discord/Discord.json
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Discord/Discord.srs
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/Discord/Discord.json
+
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/Discord/Discord.srs

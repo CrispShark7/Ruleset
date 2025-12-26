@@ -1,4 +1,5 @@
 # 🧸 WeType
 
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/WeType/WeType.json
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/WeType/WeType.srs
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/WeType/WeType.json
+
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/WeType/WeType.srs

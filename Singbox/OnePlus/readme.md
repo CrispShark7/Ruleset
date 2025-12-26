@@ -1,4 +1,5 @@
 # 🧸 OnePlus
 
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/OnePlus/OnePlus.json
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/OnePlus/OnePlus.srs
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/OnePlus/OnePlus.json
+
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/OnePlus/OnePlus.srs

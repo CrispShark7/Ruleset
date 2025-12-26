@@ -1,4 +1,5 @@
 # 🧸 Picsee
 
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Picsee/Picsee.json
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Picsee/Picsee.srs
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/Picsee/Picsee.json
+
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/Picsee/Picsee.srs

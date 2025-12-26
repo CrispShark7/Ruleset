@@ -1,4 +1,5 @@
 # 🧸 Coolapk
 
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Coolapk/Coolapk.json
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Coolapk/Coolapk.srs
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/Coolapk/Coolapk.json
+
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/Coolapk/Coolapk.srs

@@ -1,4 +1,5 @@
 # 🧸 Notion
 
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Notion/Notion.json
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Notion/Notion.srs
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/Notion/Notion.json
+
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/Notion/Notion.srs

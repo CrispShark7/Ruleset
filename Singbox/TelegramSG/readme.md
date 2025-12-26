@@ -1,4 +1,5 @@
 # 🧸 TelegramSG
 
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/TelegramSG/TelegramSG.json
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/TelegramSG/TelegramSG.srs
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/TelegramSG/TelegramSG.json
+
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/TelegramSG/TelegramSG.srs

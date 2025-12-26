@@ -1,4 +1,5 @@
 # 🧸 SoundCloud
 
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/SoundCloud/SoundCloud.json
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/SoundCloud/SoundCloud.srs
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/SoundCloud/SoundCloud.json
+
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/SoundCloud/SoundCloud.srs

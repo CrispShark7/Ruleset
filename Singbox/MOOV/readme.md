@@ -1,4 +1,5 @@
 # 🧸 MOOV
 
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/MOOV/MOOV.json
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/MOOV/MOOV.srs
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/MOOV/MOOV.json
+
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/MOOV/MOOV.srs

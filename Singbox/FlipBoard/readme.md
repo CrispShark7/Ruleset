@@ -1,4 +1,5 @@
 # 🧸 FlipBoard
 
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/FlipBoard/FlipBoard.json
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/FlipBoard/FlipBoard.srs
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/FlipBoard/FlipBoard.json
+
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/FlipBoard/FlipBoard.srs

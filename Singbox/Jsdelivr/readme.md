@@ -1,4 +1,5 @@
 # 🧸 Jsdelivr
 
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Jsdelivr/Jsdelivr.json
-规则链接: https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Jsdelivr/Jsdelivr.srs
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/Jsdelivr/Jsdelivr.json
+
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/Jsdelivr/Jsdelivr.srs
