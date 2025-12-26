@@ -89,26 +89,37 @@ def main():
     parser.add_argument("platform", choices=["Egern", "Singbox"])
     parser.add_argument("file_path", type=Path, help="规则文件或者路径")
     args = parser.parse_args()
+
     platform_map = {"Egern": process_egern, "Singbox": process_singbox}
     process_func = platform_map[args.platform]
-    if args.file_path.is_file():
-        files_to_process = [args.file_path]
-    elif args.file_path.is_dir():
-        if args.platform == "Singbox":
-            files_to_process = sorted(args.file_path.rglob("*.json"))
-        else:
-            files_to_process = sorted(args.file_path.rglob("*.list"))
-    else:
+
+    if not args.file_path.exists():
         sys.exit(f"{args.file_path} not found or unsupported type.")
+
+    # 根据平台设置规则文件后缀
+    rule_suffix = ".yaml" if args.platform == "Egern" else ".json"
+
+    # 获取待处理文件列表
+    files_to_process = []
+    if args.file_path.is_file():
+        if args.file_path.suffix == rule_suffix:
+            files_to_process = [args.file_path]
+    elif args.file_path.is_dir():
+        files_to_process = sorted(args.file_path.rglob(f"*{rule_suffix}"))
+
     if not files_to_process:
         print(f"No supported files found in: {args.file_path}")
         return
+
+    # 遍历处理
     for f in files_to_process:
         try:
             process_func(f)
         except Exception as e:
             print(f"Failed to process {f}: {e}")
+
     print("Processed Completed.")
+
 
 if __name__ == "__main__":
     main()
