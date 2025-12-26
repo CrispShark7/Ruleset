@@ -18,17 +18,12 @@ jobs:
           repository: Centralmatrix3/Ruleset
           path: Ruleset
 
-      - name: Run Build
+      - name: Build & Process Rules
         working-directory: ./Scripts
-        run: Build.sh
-
-      - name: Egern
-        working-directory: ./Scripts
-        run: python Build.py Egern ..Ruleset/Egern
-
-      - name: Singbox
-        working-directory: ./Scripts
-        run: python Build.py Singbox ..Ruleset/Singbox
+        run: |
+          bash Build.sh
+          python Build.py Egern ../Ruleset/Egern
+          python Build.py Singbox ../Ruleset/Singbox
 
       - name: Singbox
         run: |
