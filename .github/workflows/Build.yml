@@ -18,7 +18,7 @@ jobs:
           path: Ruleset
 
       - name: Clone
-        run: bash Build.sh
+        run: ./Build.sh
 
       - name: Push Update
         run: |
