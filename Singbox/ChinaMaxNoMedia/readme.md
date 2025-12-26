@@ -1,4 +1,5 @@
 # 🧸 ChinaMaxNoMedia
 
 规则链接: https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/ChinaMaxNoMedia/ChinaMaxNoMedia.json
+规则链接: https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/ChinaMaxNoMedia/ChinaMaxNoMedia.srs
 

@@ -1,4 +1,5 @@
 # 🧸 Amazon
 
 规则链接: https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/Amazon/Amazon.json
+规则链接: https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/Amazon/Amazon.srs
 

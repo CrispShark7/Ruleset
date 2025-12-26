@@ -1,4 +1,5 @@
 # 🧸 SuNing
 
 规则链接: https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/SuNing/SuNing.json
+规则链接: https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/SuNing/SuNing.srs
 

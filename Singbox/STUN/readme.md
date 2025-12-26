@@ -1,4 +1,5 @@
 # 🧸 STUN
 
 规则链接: https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/STUN/STUN.json
+规则链接: https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/STUN/STUN.srs
 
