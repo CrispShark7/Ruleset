@@ -1,3 +1,3 @@
 # 🧸 HuaweiCloud
 
-https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Cloud/HuaweiCloud/HuaweiCloud.yaml
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Egern/Cloud/HuaweiCloud/HuaweiCloud.yaml

@@ -1,3 +1,3 @@
 # 🧸 ChinaIPsTest
 
-https://raw.githubusercontent.com/CrispShark7/Ruleset/master/ChinaIPs/ChinaIPsTest/ChinaIPsTest.yaml
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Egern/ChinaIPs/ChinaIPsTest/ChinaIPsTest.yaml

@@ -1,3 +1,3 @@
 # 🧸 Direct
 
-https://raw.githubusercontent.com/CrispShark7/Ruleset/master/AdGuardSDNSFilter/Direct/Direct.yaml
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Egern/AdGuardSDNSFilter/Direct/Direct.yaml

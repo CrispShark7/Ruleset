@@ -1,3 +1,3 @@
 # 🧸 KingsoftCloud
 
-https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Cloud/KingsoftCloud/KingsoftCloud.yaml
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Egern/Cloud/KingsoftCloud/KingsoftCloud.yaml

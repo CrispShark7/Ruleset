@@ -1,5 +1,5 @@
 # 🧸 Roblox
 
-https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Game/Roblox/Roblox.json
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/Game/Roblox/Roblox.json
 
-https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Game/Roblox/Roblox.srs
+https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/Game/Roblox/Roblox.srs
