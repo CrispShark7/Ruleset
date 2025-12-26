@@ -3,4 +3,3 @@
 规则链接: https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/EasyPrivacy/EasyPrivacy.json
 
 规则链接: https://raw.githubusercontent.com/CrispShark7/Ruleset/master/Singbox/EasyPrivacy/EasyPrivacy.srs
-
