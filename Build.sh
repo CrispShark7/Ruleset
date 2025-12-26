@@ -14,7 +14,7 @@ if [[ "$repository" == "Ruleset" ]]; then
     for rule_path in "${rule_dirs[@]}"; do
         mkdir -p "$repository/$rule_path"
     done
-    declare -A rule_local_source=(
+    declare -A rule_copy_source=(
         ["AdBlock"]="AdBlock.list"
         ["Advertising"]="Advertising.list"
         ["AppStore"]="AppStore.list"
@@ -23,13 +23,13 @@ if [[ "$repository" == "Ruleset" ]]; then
         ["Egern"]="yaml"
         ["Singbox"]="json"
     )
-    for target_rule in "${!rule_local_source[@]}"; do
+    for target_rule in "${!rule_copy_source[@]}"; do
+        source_file="ios_rule_script/rule/Clash/${copy_rule[$target_rule]}"
         for platform in "${!formats[@]}"; do
-            output_file="$repository/$platform/Ruleset/$target_rule.${formats[$platform]}"
-            source_urls=(); source_file=()
-            for file in ${rule_local_source[$target_rule]}; do
-                source_urls+=("https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Ruleset/$file")
-                source_file+=("$repository/Ruleset/$file")
+            output_file="$repository/$platform/$target_rule.${formats[$platform]}"
+            for file in ${rule_copy_source[$target_rule]}; do
+                cp "$source_file" "$output_file"
+                echo "Processed: $source_file -> $output_file"
             done
             copy "$output_file" "${source_file[@]}"
         done
