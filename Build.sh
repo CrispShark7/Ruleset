@@ -5,16 +5,14 @@ set -euo pipefail
 repository="$(basename "$GITHUB_REPOSITORY")"
 
 rm -rf ios_rule_script
-curl -sL https://github.com/blackmatrix7/ios_rule_script/archive/refs/heads/master.zip -o master.zip
-unzip -q master.zip
-mv ios_rule_script-master ios_rule_script
-rm master.zip
+git clone -q https://github.com/blackmatrix7/ios_rule_script.git ios_rule_script
 
 echo "Execute in $repository Repository"
+
 mkdir -p "$repository"/{Egern,Singbox}
+for dir in Egern Singbox; do
+    find ios_rule_script/rule/Clash -type f -name "*.list" -exec cp --parents {} "$repository/$dir/" \;
+done
 
-cp -r ios_rule_script/rule/Clash/* "$repository"/Egern/
-cp -r ios_rule_script/rule/Clash/* "$repository"/Singbox/
-
-echo "Copied All Rule to $repository/Egern and $repository/Singbox"
+echo "Copied all rules to $repository/Egern and $repository/Singbox"
 echo "$repository Repository: All Ruleset Processed!"
