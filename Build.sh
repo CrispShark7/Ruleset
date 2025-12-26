@@ -24,7 +24,7 @@ if [[ "$repository" == "Ruleset" ]]; then
         ["Singbox"]="json"
     )
     for target_rule in "${!rule_copy_source[@]}"; do
-        source_file="ios_rule_script/rule/Clash/${copy_rule[$target_rule]}"
+        source_file="ios_rule_script/rule/Clash/${rule_copy_source[$target_rule]}"
         for platform in "${!formats[@]}"; do
             output_file="$repository/$platform/$target_rule.${formats[$platform]}"
             cp "$source_file" "$output_file"
