@@ -25,11 +25,16 @@ SINGBOX_RULE_MAP = {
 }
 
 def rules_load(file_path: Path):
-    return [
-        tuple((line.strip().split(",", 2) + ["", "", ""])[:3])
-        for line in file_path.read_text(encoding="utf-8").splitlines()
-        if (line := line.strip()) and not line.startswith("#")
-    ]
+    rule_data = []
+    for line in file_path.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if not line or line.startswith("#"):
+            continue
+        parts = line.split(",", 2)
+        while len(parts) < 3:
+            parts.append("")
+        rule_data.append(tuple(parts[:3]))
+    return rule_data
 
 def rules_write(file_path, rule_name=None, rule_count=None, rule_data=None, platform=None):
     with file_path.open("w", encoding="utf-8", newline="\n") as f:
