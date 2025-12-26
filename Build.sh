@@ -27,11 +27,8 @@ if [[ "$repository" == "Ruleset" ]]; then
         source_file="ios_rule_script/rule/Clash/${copy_rule[$target_rule]}"
         for platform in "${!formats[@]}"; do
             output_file="$repository/$platform/$target_rule.${formats[$platform]}"
-            for file in ${rule_copy_source[$target_rule]}; do
-                cp "$source_file" "$output_file"
-                echo "Processed: $source_file -> $output_file"
-            done
-            copy "$output_file" "${source_file[@]}"
+            cp "$source_file" "$output_file"
+            echo "Processed: $source_file -> $output_file"
         done
     done
     echo "$repository Repository: All Ruleset Processed!"
