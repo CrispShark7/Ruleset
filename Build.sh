@@ -13,23 +13,8 @@ if [[ "$repository" == "Ruleset" ]]; then
     rule_dirs=("Egern" "Singbox")
     for rule_path in "${rule_dirs[@]}"; do
         mkdir -p "$repository/$rule_path"
-    done
-    declare -A rule_copy_source=(
-        ["AdBlock"]="AdBlock.list"
-        ["Advertising"]="Advertising.list"
-        ["AppStore"]="AppStore.list"
-    )
-    declare -A formats=(
-        ["Egern"]="yaml"
-        ["Singbox"]="json"
-    )
-    for target_rule in "${!rule_copy_source[@]}"; do
-        source_file="ios_rule_script/rule/Clash/${rule_copy_source[$target_rule]}"
-        for platform in "${!formats[@]}"; do
-            output_file="$repository/$platform/$target_rule.${formats[$platform]}"
-            cp "$source_file" "$output_file"
-            echo "Processed: $source_file -> $output_file"
-        done
+        cp -r ios_rule_script/rule/Clash/* "$repository/$rule_path/"
+        echo "Copied all rules to $repository/$rule_path"
     done
     echo "$repository Repository: All Ruleset Processed!"
 fi
