@@ -10,9 +10,19 @@ git clone -q https://github.com/blackmatrix7/ios_rule_script.git ios_rule_script
 echo "Execute in $repository Repository"
 
 mkdir -p "$repository"/{Egern,Singbox}
-for dir in Egern Singbox; do
-    find ios_rule_script/rule/Clash -type f -name "*.list" -exec cp --parents {} "$repository/$dir/" \;
-done
 
-echo "Copied all rules to $repository/Egern and $repository/Singbox"
+while IFS= read -r -d '' file; do
+    rel_path="${file#ios_rule_script/rule/Clash/}"
+
+    dest="$repository/Egern/${rel_path%.list}.yaml"
+    mkdir -p "$(dirname "$dest")"
+    cp "$file" "$dest"
+
+    dest="$repository/Singbox/${rel_path%.list}.json"
+    mkdir -p "$(dirname "$dest")"
+    cp "$file" "$dest"
+
+done < <(find ios_rule_script/rule/Clash -type f -name "*.list" -print0)
+
+echo "Copied and renamed all rules to $repository/Egern and $repository/Singbox"
 echo "$repository Repository: All Ruleset Processed!"
