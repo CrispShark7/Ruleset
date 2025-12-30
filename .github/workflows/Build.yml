@@ -41,7 +41,6 @@ jobs:
             [ ! -f "$file" ] && echo "$file not found." && continue
             sing-box rule-set compile "$file" -o "${file%.json}.srs"
           done
-          rm -rf sing-box.tar.gz "sing-box-${SING_BOX_VERSION}-linux-amd64"
 
       - name: Push Update
         run: |
