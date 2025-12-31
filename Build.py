@@ -116,7 +116,7 @@ def main():
     parser.add_argument("file_path", nargs="?", type=Path, help="规则文件或者路径")
     args = parser.parse_args()
     if not args.platform:
-        copy_list_files()
+        rules_copy()
         return
     platform_map = {"Egern": process_egern, "Singbox": process_singbox}
     process_func = platform_map[args.platform]
