@@ -111,25 +111,20 @@ def process_singbox(file_path: Path):
         f.write(f"https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/{srs_relative.as_posix()}")
 
 def main():
+    len(sys.argv) == 1 and prepare_rules() and exit()
     parser = argparse.ArgumentParser(description="规则构建工具")
-    parser.add_argument("platform", choices=["Egern", "Singbox"], nargs="?")  # 可选
-    parser.add_argument("file_path", type=Path, nargs="?")  # 可选
+    parser.add_argument("platform", choices=["Egern", "Singbox"])
+    parser.add_argument("file_path", type=Path)
     args = parser.parse_args()
-    if args.platform is None:
-        prepare_rules()
-        return
     platform_map = {"Egern": process_egern, "Singbox": process_singbox}
     process_func = platform_map[args.platform]
-    if args.file_path is None or not args.file_path.exists():
+    if not args.file_path.exists():
         sys.exit(f"{args.file_path} not found or unsupported type.")
     files_to_process = []
     if args.file_path.is_file():
         files_to_process = [args.file_path]
     elif args.file_path.is_dir():
         files_to_process = sorted(f for f in args.file_path.rglob("*") if f.is_file())
-    if not files_to_process:
-        print(f"No files found in: {args.file_path}")
-        return
     for f in files_to_process:
         try:
             process_func(f)
