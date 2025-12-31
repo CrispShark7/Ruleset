@@ -41,13 +41,14 @@ jobs:
             [ ! -f "$file" ] && echo "$file not found." && continue
             sing-box rule-set compile "$file" -o "${file%.json}.srs"
           done
+          rm -rf sing-box.tar.gz "sing-box-${SING_BOX_VERSION}-linux-amd64"
 
       - name: Push Update
         run: |
           if [[ -n $(git status -s) ]]; then
             git config --local user.email "${{ github.actor }}@users.noreply.github.com"
             git config --local user.name "${{ github.actor }}"
-            git add -A
+            git add -A ":!ios_rule_script"
             git commit -m "$(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M:%S')"
             git push origin master
           else
