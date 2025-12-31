@@ -1,9 +1,6 @@
-# macOS
-#.DS_Store
-
 # Checkout Repository
 # ios_rule_script/
 
 # Sing-box Compile
-#sing-box.tar.gz
-#sing-box-*-linux-amd64/
+sing-box.tar.gz
+sing-box-*-linux-amd64/
