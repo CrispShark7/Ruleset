@@ -10,6 +10,6 @@ while IFS= read -r -d '' file; do
     mkdir -p "Egern/$relative_dir" "Singbox/$relative_dir"
     cp "$file" "Egern/${relative_path%.list}.yaml"
     cp "$file" "Singbox/${relative_path%.list}.json"
-done < <(find ios_rule_script/rule/Clash -mindepth 1 -type f -name "*.list" -print0)
+done < <(find rule_script/rule/Clash -mindepth 1 -type f -name "*.list" -print0)
 
 echo "All Ruleset Processed!"
