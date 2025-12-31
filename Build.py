@@ -27,17 +27,15 @@ SINGBOX_RULE_MAP = {
 
 def rules_copy():
     source_path = Path("ios_rule_script/rule/Clash")
-    egern_path = Path("Egern")
-    singbox_path = Path("Singbox")
-    for p in [egern_path, singbox_path]:
-        if p.exists():
-            shutil.rmtree(p)
-        p.mkdir(parents=True, exist_ok=True)
+    egern_path, singbox_path = Path("Egern"), Path("Singbox")
+    for path in (egern_path, singbox_path):
+        if path.exists():
+            shutil.rmtree(path)
+        path.mkdir(parents=True, exist_ok=True)
     for file_path in source_path.rglob("*.list"):
         relative_path = file_path.relative_to(source_path)
-        relative_dir = relative_path.parent
-        (egern_path / relative_dir).mkdir(parents=True, exist_ok=True)
-        (singbox_path / relative_dir).mkdir(parents=True, exist_ok=True)
+        for base_path in (egern_path, singbox_path):
+            (base_path / relative_path.parent).mkdir(parents=True, exist_ok=True)
         shutil.copy(file_path, egern_path / relative_path.with_suffix(".yaml"))
         shutil.copy(file_path, singbox_path / relative_path.with_suffix(".json"))
     print("All Ruleset Processed!")
