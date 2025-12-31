@@ -25,6 +25,23 @@ SINGBOX_RULE_MAP = {
     "IP-CIDR6": "ip_cidr"
 }
 
+def rules_copy():
+    source_path = Path("ios_rule_script/rule/Clash")
+    egern_path = Path("Egern")
+    singbox_path = Path("Singbox")
+    for p in [egern_path, singbox_path]:
+        if p.exists():
+            shutil.rmtree(p)
+        p.mkdir(parents=True, exist_ok=True)
+    for file_path in source_path.rglob("*.list"):
+        relative_path = file_path.relative_to(source_path)
+        relative_dir = relative_path.parent
+        (egern_path / relative_dir).mkdir(parents=True, exist_ok=True)
+        (singbox_path / relative_dir).mkdir(parents=True, exist_ok=True)
+        shutil.copy(file_path, egern_path / relative_path.with_suffix(".yaml"))
+        shutil.copy(file_path, singbox_path / relative_path.with_suffix(".json"))
+    print("All Ruleset Processed!")
+
 def rules_load(file_path: Path):
     rule_data = []
     for line in file_path.read_text(encoding="utf-8").splitlines():
@@ -48,27 +65,6 @@ def rules_write(file_path, rule_name=None, rule_count=None, rule_data=None, plat
             f.writelines(f"{line}\n" for line in rule_data)
     if platform:
         print(f"Processed ({platform}): {file_path}")
-
-def prepare_directories_and_copy(source_dir: Path):
-    egern_dir = Path("Egern")
-    singbox_dir = Path("Singbox")
-    if egern_dir.exists():
-        shutil.rmtree(egern_dir)
-    if singbox_dir.exists():
-        shutil.rmtree(singbox_dir)
-    egern_dir.mkdir(parents=True, exist_ok=True)
-    singbox_dir.mkdir(parents=True, exist_ok=True)
-    for file_path in sorted(source_dir.rglob("*.list")):
-        relative_path = file_path.relative_to(source_dir)
-        egern_target_dir = egern_dir / relative_path.parent
-        singbox_target_dir = singbox_dir / relative_path.parent
-        egern_target_dir.mkdir(parents=True, exist_ok=True)
-        singbox_target_dir.mkdir(parents=True, exist_ok=True)
-        egern_target_file = egern_target_dir / f"{file_path.stem}.yaml"
-        singbox_target_file = singbox_target_dir / f"{file_path.stem}.json"
-        shutil.copy(file_path, egern_target_file)
-        shutil.copy(file_path, singbox_target_file)
-    print("All Ruleset Processed!")
 
 def process_egern(file_path: Path):
     rule_name = file_path.stem
@@ -116,15 +112,15 @@ def process_singbox(file_path: Path):
 
 def main():
     parser = argparse.ArgumentParser(description="规则构建工具")
-    parser.add_argument("platform", choices=["Egern", "Singbox", "Prepare"])
-    parser.add_argument("file_path", type=Path, help="规则文件或者路径")
+    parser.add_argument("--platform", choices=["Egern", "Singbox"], help="指定平台处理规则")
+    parser.add_argument("file_path", nargs="?", type=Path, help="规则文件或者路径")
     args = parser.parse_args()
-    if args.platform == "Prepare":
-        prepare_directories_and_copy(args.file_path)
+    if not args.platform:
+        copy_list_files()
         return
     platform_map = {"Egern": process_egern, "Singbox": process_singbox}
     process_func = platform_map[args.platform]
-    if not args.file_path.exists():
+    if not args.file_path or not args.file_path.exists():
         sys.exit(f"{args.file_path} not found or unsupported type.")
     files_to_process = []
     if args.file_path.is_file():
