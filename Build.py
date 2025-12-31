@@ -112,7 +112,7 @@ def process_singbox(file_path: Path):
 
 def main():
     parser = argparse.ArgumentParser(description="规则构建工具")
-    parser.add_argument("--platform", choices=["Egern", "Singbox"], help="指定平台处理规则")
+    parser.add_argument("platform", nargs="?", choices=["Egern", "Singbox"], help="指定平台处理规则")
     parser.add_argument("file_path", nargs="?", type=Path, help="规则文件或者路径")
     args = parser.parse_args()
     if not args.platform:
