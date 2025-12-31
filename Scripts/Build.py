@@ -29,17 +29,16 @@ def prepare_rules():
     source_dir = Path("ios_rule_script/rule/Clash")
     targets = {"Egern": ".yaml", "Singbox": ".json"}
     for target in targets:
-        if Path(target).exists():
-            shutil.rmtree(target)
-        Path(target).mkdir(parents=True, exist_ok=True)
+        target_path = Path(target)
+        if target_path.exists():
+            shutil.rmtree(target_path)
     for file_path in source_dir.rglob("*.list"):
         relative_path = file_path.relative_to(source_dir)
-        relative_dir = relative_path.parent
         for target, ext in targets.items():
-            dest_dir = Path(target) / relative_dir
-            dest_dir.mkdir(parents=True, exist_ok=True)
-            dest_file = dest_dir / (file_path.stem + ext)
+            dest_file = Path(target) / relative_path.with_suffix(ext)
+            dest_file.parent.mkdir(parents=True, exist_ok=True)  # 一次性创建父目录
             shutil.copy2(file_path, dest_file)
+            print(f"Copied {file_path} → {dest_file}")
     print("All Ruleset Processed!")
 
 def rules_load(file_path: Path):
