@@ -2,6 +2,7 @@
 
 import json
 import sys
+import shutil
 import argparse
 from pathlib import Path
 from collections import defaultdict
@@ -23,6 +24,23 @@ SINGBOX_RULE_MAP = {
     "IP-CIDR": "ip_cidr",
     "IP-CIDR6": "ip_cidr"
 }
+
+def prepare_rules():
+    source_dir = Path("ios_rule_script/rule/Clash")
+    targets = {"Egern": ".yaml", "Singbox": ".json"}
+    for target in targets:
+        if Path(target).exists():
+            shutil.rmtree(target)
+        Path(target).mkdir(parents=True, exist_ok=True)
+    for file_path in source_dir.rglob("*.list"):
+        relative_path = file_path.relative_to(source_dir)
+        relative_dir = relative_path.parent
+        for target, ext in targets.items():
+            dest_dir = Path(target) / relative_dir
+            dest_dir.mkdir(parents=True, exist_ok=True)
+            dest_file = dest_dir / (file_path.stem + ext)
+            shutil.copy2(file_path, dest_file)
+    print("All Ruleset Processed!")
 
 def rules_load(file_path: Path):
     rule_data = []
@@ -94,12 +112,15 @@ def process_singbox(file_path: Path):
 
 def main():
     parser = argparse.ArgumentParser(description="规则构建工具")
-    parser.add_argument("platform", choices=["Egern", "Singbox"])
-    parser.add_argument("file_path", type=Path, help="规则文件或者路径")
+    parser.add_argument("platform", choices=["Egern", "Singbox"], nargs="?")  # 可选
+    parser.add_argument("file_path", type=Path, nargs="?")  # 可选
     args = parser.parse_args()
+    if args.platform is None:
+        prepare_rules()
+        return
     platform_map = {"Egern": process_egern, "Singbox": process_singbox}
     process_func = platform_map[args.platform]
-    if not args.file_path.exists():
+    if args.file_path is None or not args.file_path.exists():
         sys.exit(f"{args.file_path} not found or unsupported type.")
     files_to_process = []
     if args.file_path.is_file():
