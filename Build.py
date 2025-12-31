@@ -116,19 +116,17 @@ def main():
     if not args.platform:
         rules_copy()
         return
-    platform_map = {"Egern": process_egern, "Singbox": process_singbox}
-    process_func = platform_map[args.platform]
+    process_func = {"Egern": process_egern, "Singbox": process_singbox}[args.platform]
     if not args.file_path or not args.file_path.exists():
         sys.exit(f"{args.file_path} not found or unsupported type.")
-    files_to_process = []
     if args.file_path.is_file():
-        files_to_process = [args.file_path]
-    elif args.file_path.is_dir():
-        files_to_process = sorted(f for f in args.file_path.rglob("*") if f.is_file())
-    if not files_to_process:
+        files = [args.file_path]
+    else:
+        files = sorted(f for f in args.file_path.rglob("*") if f.is_file())
+    if not files:
         print(f"No files found in: {args.file_path}")
         return
-    for f in files_to_process:
+    for f in files:
         try:
             process_func(f)
         except Exception as e:
