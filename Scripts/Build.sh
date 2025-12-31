@@ -5,7 +5,7 @@ set -euo pipefail
 rm -rf Egern Singbox
 mkdir -p Egern Singbox
 while IFS= read -r -d '' file; do
-    relative_path="${file#ios_rule_script/rule/Clash/}"
+    relative_path="${file#rule_script/rule/Clash/}"
     relative_dir="$(dirname "$relative_path")"
     mkdir -p "Egern/$relative_dir" "Singbox/$relative_dir"
     cp "$file" "Egern/${relative_path%.list}.yaml"
