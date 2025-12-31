@@ -22,7 +22,7 @@ jobs:
           path: ios_rule_script
 
       - name: Prepare Rules
-        run: python Build.py Prepare ios_rule_script/rule/Clash
+        run: python Build.py
 
       - name: Process Egern
         run: python Build.py Egern Egern
