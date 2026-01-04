@@ -25,7 +25,7 @@ SINGBOX_RULE_MAP = {
     "IP-CIDR6": "ip_cidr"
 }
 
-def process_copy():
+def process_source():
     source_path = Path("ios_rule_script/rule/Clash")
     egern_path, singbox_path = Path("Egern"), Path("Singbox")
     for path in (egern_path, singbox_path):
@@ -39,6 +39,19 @@ def process_copy():
             target_path.parent.mkdir(parents=True, exist_ok=True)
             shutil.copy(source_file, target_path)
             print(f"Copied {source_file} -> {target_path}")
+
+def process_readme(file_path: Path, platform, extra_suffix=None):
+    platform_root = next(p for p in file_path.parents if p.name == platform)
+    readme_file = file_path.parent / "readme.md"
+    relative_path = [file_path.relative_to(platform_root.parent)]
+    if extra_suffix:
+        for suffix in extra_suffix:
+            extra_file = file_path.with_suffix(suffix).relative_to(platform_root.parent)
+            relative_path.append(extra_file)
+    with readme_file.open("w", encoding="utf-8") as f:
+        f.write(f"# 🧸 {file_path.stem}\n\n")
+        for relative in relative_path:
+            f.write(f"https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/{relative.as_posix()}")
 
 def content_read(file_path: Path):
     rule_data = []
@@ -81,12 +94,7 @@ def convert_egern(file_path: Path):
         output.extend(f"  - {value}" for value in rule_list)
     rule_count = sum(line.startswith("  - ") for line in output)
     content_write(file_path, rule_name, rule_count, output, platform="Egern")
-    platform_root = next(p for p in file_path.parents if p.name == "Egern")
-    relative_path = file_path.relative_to(platform_root.parent)
-    readme_file = file_path.parent / "readme.md"
-    with readme_file.open("w", encoding="utf-8", newline="\n") as f:
-        f.write(f"# 🧸 {rule_name}\n\n")
-        f.write(f"https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/{relative_path.as_posix()}")
+    process_readme(file_path, "Egern")
 
 def convert_singbox(file_path: Path):
     rule_name = file_path.stem
@@ -99,14 +107,7 @@ def convert_singbox(file_path: Path):
     rule_list = [{rule_type: value} for rule_type, value in rule_data.items()]
     output = {"version": 3, "rules": rule_list}
     content_write(file_path, rule_data=output, platform="Singbox")
-    platform_root = next(p for p in file_path.parents if p.name == "Singbox")
-    json_relative = file_path.relative_to(platform_root.parent)
-    srs_relative = file_path.with_suffix(".srs").relative_to(platform_root.parent)
-    readme_file = file_path.parent / "readme.md"
-    with readme_file.open("w", encoding="utf-8") as f:
-        f.write(f"# 🧸 {rule_name}\n\n")
-        f.write(f"https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/{json_relative.as_posix()}\n\n")
-        f.write(f"https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/{srs_relative.as_posix()}")
+    process_readme(file_path, "Singbox", extra_suffix=[".srs"])
 
 def main():
     parser = argparse.ArgumentParser("规则构建脚本")
@@ -114,7 +115,7 @@ def main():
     parser.add_argument("file_path", nargs="?", type=Path)
     args = parser.parse_args()
     convert_function = {
-        "Source": lambda _: process_copy(),
+        "Source": lambda _: process_source(),
         "Egern": convert_egern,
         "Singbox": convert_singbox
     }[args.platform]
