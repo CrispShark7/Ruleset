@@ -32,13 +32,13 @@ def process_copy():
         if path.exists():
             shutil.rmtree(path)
         path.mkdir(parents=True, exist_ok=True)
-    for file_path in source_path.rglob("*.list"):
-        relative_path = file_path.relative_to(source_path)
+    for source_file in source_path.rglob("*.list"):
+        relative_path = source_file.relative_to(source_path)
         for base, suffix in ((egern_path, ".yaml"), (singbox_path, ".json")):
             target_path = base / relative_path.with_suffix(suffix)
             target_path.parent.mkdir(parents=True, exist_ok=True)
-            shutil.copy(file_path, target_path)
-    print("All Ruleset Processed!")
+            shutil.copy(source_file, target_path)
+            print(f"Copied {source_file} -> {target_path}")
 
 def content_read(file_path: Path):
     rule_data = []
@@ -110,7 +110,7 @@ def convert_singbox(file_path: Path):
 
 def main():
     parser = argparse.ArgumentParser("规则构建脚本")
-    parser.add_argument("platform", nargs="?", choices=["Source", "Egern", "Singbox"])
+    parser.add_argument("platform", choices=["Source", "Egern", "Singbox"])
     parser.add_argument("file_path", nargs="?", type=Path)
     args = parser.parse_args()
     convert_function = {
@@ -120,20 +120,19 @@ def main():
     }[args.platform]
     if args.platform == "Source":
         convert_function(None)
-        print("Processed Completed.")
-        return
-    path = args.file_path
-    if not path or not path.exists():
-        sys.exit(f"{path} Not Found or Unknown Type.")
-    file_to_process = [path] if path.is_file() else sorted(f for f in path.rglob("*") if f.is_file())
-    if not file_to_process:
-        print(f"No File Found in: {path}")
-        return
-    for f in file_to_process:
-        try:
-            convert_function(f)
-        except Exception as e:
-            print(f"Failed to Process {f}: {e}")
+    else:
+        path = args.file_path
+        if not path or not path.exists():
+            sys.exit(f"{path} Not Found or Unknown Type.")
+        file_to_process = [path] if path.is_file() else sorted(f for f in path.rglob("*") if f.is_file())
+        if not file_to_process:
+            print(f"No File Found in: {path}")
+            return
+        for f in file_to_process:
+            try:
+                convert_function(f)
+            except Exception as e:
+                print(f"Failed to Process {f}: {e}")
     print("Processed Completed.")
 
 if __name__ == "__main__":
