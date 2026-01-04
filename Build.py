@@ -51,7 +51,7 @@ def process_readme(file_path: Path, platform, extra_suffix=None):
     with readme_file.open("w", encoding="utf-8") as f:
         f.write(f"# 🧸 {file_path.stem}\n\n")
         for relative in relative_path:
-            f.write(f"https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/{relative.as_posix()}"\n\n)
+            f.write(f"https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/{relative.as_posix()}\n\n")
 
 def content_read(file_path: Path):
     rule_data = []
