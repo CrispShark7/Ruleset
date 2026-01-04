@@ -21,8 +21,8 @@ jobs:
           repository: blackmatrix7/ios_rule_script
           path: ios_rule_script
 
-      - name: Prepare Rules
-        run: python Build.py
+      - name: Source Rules
+        run: python Build.py Source
 
       - name: Process Egern
         run: python Build.py Egern Egern
