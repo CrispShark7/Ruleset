@@ -1,3 +1,6 @@
 # 🧸 CaiXinChuanMei
 
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/CaiXinChuanMei/CaiXinChuanMei.jsonhttps://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/CaiXinChuanMei/CaiXinChuanMei.srs
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/CaiXinChuanMei/CaiXinChuanMei.json
+
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/CaiXinChuanMei/CaiXinChuanMei.srs
+

@@ -1,3 +1,6 @@
 # 🧸 Teams
 
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Teams/Teams.jsonhttps://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Teams/Teams.srs
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Teams/Teams.json
+
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Teams/Teams.srs
+

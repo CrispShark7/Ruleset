@@ -1,3 +1,6 @@
 # 🧸 4chan
 
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/4chan/4chan.jsonhttps://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/4chan/4chan.srs
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/4chan/4chan.json
+
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/4chan/4chan.srs
+

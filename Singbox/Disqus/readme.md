@@ -1,3 +1,6 @@
 # 🧸 Disqus
 
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Disqus/Disqus.jsonhttps://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Disqus/Disqus.srs
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Disqus/Disqus.json
+
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Disqus/Disqus.srs
+

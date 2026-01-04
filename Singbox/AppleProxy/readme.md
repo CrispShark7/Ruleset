@@ -1,3 +1,6 @@
 # 🧸 AppleProxy
 
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/AppleProxy/AppleProxy.jsonhttps://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/AppleProxy/AppleProxy.srs
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/AppleProxy/AppleProxy.json
+
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/AppleProxy/AppleProxy.srs
+

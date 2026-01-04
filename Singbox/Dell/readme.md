@@ -1,3 +1,6 @@
 # 🧸 Dell
 
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Dell/Dell.jsonhttps://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Dell/Dell.srs
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Dell/Dell.json
+
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Dell/Dell.srs
+

@@ -1,3 +1,6 @@
 # 🧸 KugouKuwo
 
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/KugouKuwo/KugouKuwo.jsonhttps://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/KugouKuwo/KugouKuwo.srs
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/KugouKuwo/KugouKuwo.json
+
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/KugouKuwo/KugouKuwo.srs
+

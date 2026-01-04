@@ -1,3 +1,6 @@
 # 🧸 Nikkei
 
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Nikkei/Nikkei.jsonhttps://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Nikkei/Nikkei.srs
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Nikkei/Nikkei.json
+
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Nikkei/Nikkei.srs
+

@@ -1,3 +1,6 @@
 # 🧸 PlayStation
 
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/PlayStation/PlayStation.jsonhttps://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/PlayStation/PlayStation.srs
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/PlayStation/PlayStation.json
+
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/PlayStation/PlayStation.srs
+

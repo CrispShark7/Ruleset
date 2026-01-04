@@ -1,3 +1,6 @@
 # 🧸 iQIYIIntl
 
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/iQIYIIntl/iQIYIIntl.jsonhttps://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/iQIYIIntl/iQIYIIntl.srs
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/iQIYIIntl/iQIYIIntl.json
+
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/iQIYIIntl/iQIYIIntl.srs
+

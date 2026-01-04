@@ -1,3 +1,6 @@
 # 🧸 JingDongCloud
 
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Cloud/JingDongCloud/JingDongCloud.jsonhttps://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Cloud/JingDongCloud/JingDongCloud.srs
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Cloud/JingDongCloud/JingDongCloud.json
+
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Cloud/JingDongCloud/JingDongCloud.srs
+

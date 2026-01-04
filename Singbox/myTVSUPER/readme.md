@@ -1,3 +1,6 @@
 # 🧸 myTVSUPER
 
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/myTVSUPER/myTVSUPER.jsonhttps://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/myTVSUPER/myTVSUPER.srs
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/myTVSUPER/myTVSUPER.json
+
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/myTVSUPER/myTVSUPER.srs
+

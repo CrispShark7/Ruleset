@@ -1,3 +1,6 @@
 # 🧸 aiXcoder
 
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/aiXcoder/aiXcoder.jsonhttps://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/aiXcoder/aiXcoder.srs
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/aiXcoder/aiXcoder.json
+
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/aiXcoder/aiXcoder.srs
+

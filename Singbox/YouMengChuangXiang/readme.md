@@ -1,3 +1,6 @@
 # 🧸 YouMengChuangXiang
 
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/YouMengChuangXiang/YouMengChuangXiang.jsonhttps://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/YouMengChuangXiang/YouMengChuangXiang.srs
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/YouMengChuangXiang/YouMengChuangXiang.json
+
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/YouMengChuangXiang/YouMengChuangXiang.srs
+

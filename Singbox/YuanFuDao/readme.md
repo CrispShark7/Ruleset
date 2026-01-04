@@ -1,3 +1,6 @@
 # 🧸 YuanFuDao
 
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/YuanFuDao/YuanFuDao.jsonhttps://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/YuanFuDao/YuanFuDao.srs
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/YuanFuDao/YuanFuDao.json
+
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/YuanFuDao/YuanFuDao.srs
+

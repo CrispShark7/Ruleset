@@ -1,3 +1,6 @@
 # 🧸 TelegramNL
 
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/TelegramNL/TelegramNL.jsonhttps://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/TelegramNL/TelegramNL.srs
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/TelegramNL/TelegramNL.json
+
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/TelegramNL/TelegramNL.srs
+

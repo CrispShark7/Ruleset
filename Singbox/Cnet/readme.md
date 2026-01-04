@@ -1,3 +1,6 @@
 # 🧸 Cnet
 
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Cnet/Cnet.jsonhttps://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Cnet/Cnet.srs
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Cnet/Cnet.json
+
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Cnet/Cnet.srs
+
