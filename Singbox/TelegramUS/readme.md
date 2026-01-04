@@ -1,5 +1,3 @@
 # 🧸 TelegramUS
 
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/TelegramUS/TelegramUS.json
-
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/TelegramUS/TelegramUS.srs
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/TelegramUS/TelegramUS.jsonhttps://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/TelegramUS/TelegramUS.srs

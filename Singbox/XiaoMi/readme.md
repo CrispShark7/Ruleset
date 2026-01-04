@@ -1,5 +1,3 @@
 # 🧸 XiaoMi
 
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/XiaoMi/XiaoMi.json
-
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/XiaoMi/XiaoMi.srs
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/XiaoMi/XiaoMi.jsonhttps://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/XiaoMi/XiaoMi.srs

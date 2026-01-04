@@ -1,5 +1,3 @@
 # 🧸 Sectigo
 
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Sectigo/Sectigo.json
-
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Sectigo/Sectigo.srs
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Sectigo/Sectigo.jsonhttps://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Sectigo/Sectigo.srs

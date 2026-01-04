@@ -1,5 +1,3 @@
 # 🧸 HuluJP
 
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/HuluJP/HuluJP.json
-
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/HuluJP/HuluJP.srs
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/HuluJP/HuluJP.jsonhttps://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/HuluJP/HuluJP.srs

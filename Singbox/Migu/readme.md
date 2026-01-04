@@ -1,5 +1,3 @@
 # 🧸 Migu
 
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Migu/Migu.json
-
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Migu/Migu.srs
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Migu/Migu.jsonhttps://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Migu/Migu.srs

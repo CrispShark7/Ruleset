@@ -1,5 +1,3 @@
 # 🧸 EHGallery
 
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/EHGallery/EHGallery.json
-
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/EHGallery/EHGallery.srs
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/EHGallery/EHGallery.jsonhttps://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/EHGallery/EHGallery.srs

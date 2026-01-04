@@ -1,5 +1,3 @@
 # 🧸 Riot
 
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Riot/Riot.json
-
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Riot/Riot.srs
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Riot/Riot.jsonhttps://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Riot/Riot.srs

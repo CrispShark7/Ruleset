@@ -1,5 +1,3 @@
 # 🧸 Hupu
 
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Hupu/Hupu.json
-
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Hupu/Hupu.srs
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Hupu/Hupu.jsonhttps://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Hupu/Hupu.srs

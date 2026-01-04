@@ -1,5 +1,3 @@
 # 🧸 Rockstar
 
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Rockstar/Rockstar.json
-
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Rockstar/Rockstar.srs
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Rockstar/Rockstar.jsonhttps://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Rockstar/Rockstar.srs

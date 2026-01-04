@@ -1,5 +1,3 @@
 # 🧸 Siri
 
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Siri/Siri.json
-
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Siri/Siri.srs
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Siri/Siri.jsonhttps://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Siri/Siri.srs

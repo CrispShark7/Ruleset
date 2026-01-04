@@ -1,5 +1,3 @@
 # 🧸 BiliBiliIntl
 
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/BiliBiliIntl/BiliBiliIntl.json
-
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/BiliBiliIntl/BiliBiliIntl.srs
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/BiliBiliIntl/BiliBiliIntl.jsonhttps://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/BiliBiliIntl/BiliBiliIntl.srs

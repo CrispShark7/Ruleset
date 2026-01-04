@@ -1,5 +1,3 @@
 # 🧸 XieCheng
 
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/XieCheng/XieCheng.json
-
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/XieCheng/XieCheng.srs
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/XieCheng/XieCheng.jsonhttps://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/XieCheng/XieCheng.srs

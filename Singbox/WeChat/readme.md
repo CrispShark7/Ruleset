@@ -1,5 +1,3 @@
 # 🧸 WeChat
 
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/WeChat/WeChat.json
-
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/WeChat/WeChat.srs
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/WeChat/WeChat.jsonhttps://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/WeChat/WeChat.srs

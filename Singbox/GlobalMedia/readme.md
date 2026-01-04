@@ -1,5 +1,3 @@
 # 🧸 GlobalMedia
 
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/GlobalMedia/GlobalMedia.json
-
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/GlobalMedia/GlobalMedia.srs
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/GlobalMedia/GlobalMedia.jsonhttps://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/GlobalMedia/GlobalMedia.srs

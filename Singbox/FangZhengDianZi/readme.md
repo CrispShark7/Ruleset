@@ -1,5 +1,3 @@
 # 🧸 FangZhengDianZi
 
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/FangZhengDianZi/FangZhengDianZi.json
-
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/FangZhengDianZi/FangZhengDianZi.srs
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/FangZhengDianZi/FangZhengDianZi.jsonhttps://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/FangZhengDianZi/FangZhengDianZi.srs

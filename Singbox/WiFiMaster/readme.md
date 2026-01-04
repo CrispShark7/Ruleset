@@ -1,5 +1,3 @@
 # 🧸 WiFiMaster
 
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/WiFiMaster/WiFiMaster.json
-
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/WiFiMaster/WiFiMaster.srs
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/WiFiMaster/WiFiMaster.jsonhttps://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/WiFiMaster/WiFiMaster.srs

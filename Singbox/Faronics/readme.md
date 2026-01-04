@@ -1,5 +1,3 @@
 # 🧸 Faronics
 
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Faronics/Faronics.json
-
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Faronics/Faronics.srs
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Faronics/Faronics.jsonhttps://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Faronics/Faronics.srs

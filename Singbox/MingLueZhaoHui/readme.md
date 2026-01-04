@@ -1,5 +1,3 @@
 # 🧸 MingLueZhaoHui
 
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/MingLueZhaoHui/MingLueZhaoHui.json
-
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/MingLueZhaoHui/MingLueZhaoHui.srs
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/MingLueZhaoHui/MingLueZhaoHui.jsonhttps://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/MingLueZhaoHui/MingLueZhaoHui.srs

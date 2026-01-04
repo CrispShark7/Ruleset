@@ -1,5 +1,3 @@
 # 🧸 VikACG
 
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/VikACG/VikACG.json
-
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/VikACG/VikACG.srs
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/VikACG/VikACG.jsonhttps://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/VikACG/VikACG.srs

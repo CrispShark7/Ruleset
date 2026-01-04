@@ -1,5 +1,3 @@
 # 🧸 Overwatch
 
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Overwatch/Overwatch.json
-
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Overwatch/Overwatch.srs
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Overwatch/Overwatch.jsonhttps://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Overwatch/Overwatch.srs

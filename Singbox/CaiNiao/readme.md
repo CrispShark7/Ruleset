@@ -1,5 +1,3 @@
 # 🧸 CaiNiao
 
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/CaiNiao/CaiNiao.json
-
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/CaiNiao/CaiNiao.srs
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/CaiNiao/CaiNiao.jsonhttps://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/CaiNiao/CaiNiao.srs

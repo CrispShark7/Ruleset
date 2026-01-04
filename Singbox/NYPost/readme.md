@@ -1,5 +1,3 @@
 # 🧸 NYPost
 
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/NYPost/NYPost.json
-
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/NYPost/NYPost.srs
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/NYPost/NYPost.jsonhttps://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/NYPost/NYPost.srs

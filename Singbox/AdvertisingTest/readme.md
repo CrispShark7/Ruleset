@@ -1,5 +1,3 @@
 # 🧸 AdvertisingTest
 
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/AdvertisingTest/AdvertisingTest.json
-
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/AdvertisingTest/AdvertisingTest.srs
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/AdvertisingTest/AdvertisingTest.jsonhttps://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/AdvertisingTest/AdvertisingTest.srs

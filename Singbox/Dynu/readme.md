@@ -1,5 +1,3 @@
 # 🧸 Dynu
 
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Dynu/Dynu.json
-
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Dynu/Dynu.srs
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Dynu/Dynu.jsonhttps://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Dynu/Dynu.srs

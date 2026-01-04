@@ -1,5 +1,3 @@
 # 🧸 JingDong
 
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/JingDong/JingDong.json
-
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/JingDong/JingDong.srs
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/JingDong/JingDong.jsonhttps://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/JingDong/JingDong.srs

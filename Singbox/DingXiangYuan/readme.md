@@ -1,5 +1,3 @@
 # 🧸 DingXiangYuan
 
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/DingXiangYuan/DingXiangYuan.json
-
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/DingXiangYuan/DingXiangYuan.srs
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/DingXiangYuan/DingXiangYuan.jsonhttps://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/DingXiangYuan/DingXiangYuan.srs

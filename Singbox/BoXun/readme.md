@@ -1,5 +1,3 @@
 # 🧸 BoXun
 
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/BoXun/BoXun.json
-
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/BoXun/BoXun.srs
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/BoXun/BoXun.jsonhttps://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/BoXun/BoXun.srs

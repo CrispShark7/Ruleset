@@ -1,5 +1,3 @@
 # 🧸 ICBC
 
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/ICBC/ICBC.json
-
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/ICBC/ICBC.srs
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/ICBC/ICBC.jsonhttps://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/ICBC/ICBC.srs

@@ -1,5 +1,3 @@
 # 🧸 HaiNanHangKong
 
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/HaiNanHangKong/HaiNanHangKong.json
-
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/HaiNanHangKong/HaiNanHangKong.srs
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/HaiNanHangKong/HaiNanHangKong.jsonhttps://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/HaiNanHangKong/HaiNanHangKong.srs

@@ -1,5 +1,3 @@
 # 🧸 Lenovo
 
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Lenovo/Lenovo.json
-
-https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Lenovo/Lenovo.srs
+https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Lenovo/Lenovo.jsonhttps://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/Singbox/Lenovo/Lenovo.srs
