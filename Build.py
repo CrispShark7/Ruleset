@@ -40,19 +40,6 @@ def process_source():
             shutil.copy(source_file, target_path)
             print(f"Copied {source_file} -> {target_path}")
 
-def process_readme(file_path: Path, platform, extra_suffix=None):
-    platform_root = next(p for p in file_path.parents if p.name == platform)
-    readme_file = file_path.parent / "readme.md"
-    relative_path = [file_path.relative_to(platform_root.parent)]
-    if extra_suffix:
-        for suffix in extra_suffix:
-            extra_file = file_path.with_suffix(suffix).relative_to(platform_root.parent)
-            relative_path.append(extra_file)
-    with readme_file.open("w", encoding="utf-8") as f:
-        f.write(f"# 🧸 {file_path.stem}\n\n")
-        for relative in relative_path:
-            f.write(f"https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/{relative.as_posix()}\n\n")
-
 def content_read(file_path: Path):
     rule_data = []
     for line in file_path.read_text(encoding="utf-8").splitlines():
@@ -79,10 +66,9 @@ def content_write(file_path, rule_name=None, rule_count=None, rule_data=None, pl
 
 def convert_egern(file_path: Path):
     rule_name = file_path.stem
-    parsed = content_read(file_path)
     rule_data = defaultdict(list)
     no_resolve = False
-    for style, value, field in parsed:
+    for style, value, field in content_read(file_path):
         if style in EGERN_RULE_MAP:
             no_resolve |= field == "no-resolve"
             rule_type = EGERN_RULE_MAP[style]
@@ -94,20 +80,31 @@ def convert_egern(file_path: Path):
         output.extend(f"  - {value}" for value in rule_list)
     rule_count = sum(line.startswith("  - ") for line in output)
     content_write(file_path, rule_name, rule_count, output, platform="Egern")
-    process_readme(file_path, "Egern")
+    platform_root = next(p for p in file_path.parents if p.name == "Egern")
+    relative_path = file_path.relative_to(platform_root.parent)
+    readme_file = file_path.parent / "readme.md"
+    with readme_file.open("w", encoding="utf-8", newline="\n") as f:
+        f.write(f"# 🧸 {rule_name}\n\n")
+        f.write(f"https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/{relative_path.as_posix()}")
 
 def convert_singbox(file_path: Path):
     rule_name = file_path.stem
-    parsed = content_read(file_path)
     rule_data = defaultdict(list)
-    for style, value, _ in parsed:
+    for style, value, field in content_read(file_path):
         if style in SINGBOX_RULE_MAP:
             rule_type = SINGBOX_RULE_MAP[style]
             rule_data[rule_type].append(value)
     rule_list = [{rule_type: value} for rule_type, value in rule_data.items()]
     output = {"version": 3, "rules": rule_list}
     content_write(file_path, rule_data=output, platform="Singbox")
-    process_readme(file_path, "Singbox", extra_suffix=[".srs"])
+    platform_root = next(p for p in file_path.parents if p.name == "Singbox")
+    json_relative = file_path.relative_to(platform_root.parent)
+    srs_relative = file_path.with_suffix(".srs").relative_to(platform_root.parent)
+    readme_file = file_path.parent / "readme.md"
+    with readme_file.open("w", encoding="utf-8") as f:
+        f.write(f"# 🧸 {rule_name}\n\n")
+        f.write(f"https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/{json_relative.as_posix()}\n\n")
+        f.write(f"https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master/{srs_relative.as_posix()}")
 
 def main():
     parser = argparse.ArgumentParser("规则构建脚本")
