@@ -98,7 +98,7 @@ def convert_singbox(file_path: Path):
     content_write(file_path, None, None, output, platform="Singbox")
     platform_root = next(p for p in file_path.parents if p.name == "Singbox")
     relative_json = file_path.relative_to(platform_root.parent)
-    relative_sts = file_path.with_suffix(".srs").relative_to(platform_root.parent)
+    relative_srs = file_path.with_suffix(".srs").relative_to(platform_root.parent)
     readme_file = file_path.parent / "readme.md"
     with readme_file.open("w", encoding="utf-8") as f:
         f.write(f"# 🧸 {rule_name}\n\n")
@@ -112,8 +112,7 @@ def main():
     args = parser.parse_args()
     convert_function = {
         "Source": lambda _: process_source(),
-        "Egern": convert_egern,
-        "Singbox": convert_singbox
+        "Egern": convert_egern, "Singbox": convert_singbox
     }[args.platform]
     if args.platform == "Source":
         convert_function(None)
