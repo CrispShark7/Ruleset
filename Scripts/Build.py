@@ -8,9 +8,9 @@ import sys
 from collections import defaultdict
 from pathlib import Path
 
-PLATFORM_EXTENSION = {"Egern": ".yaml", "Singbox": ".json"}
-
 RULESET_BASE_URL = "https://raw.githubusercontent.com/Centralmatrix3/Ruleset/master"
+
+PLATFORM_EXTENSION = {"Egern": ".yaml", "Singbox": ".json"}
 
 EGERN_QUOTED_TYPE = {"DOMAIN-WILDCARD", "IP-ASN"}
 
@@ -60,17 +60,17 @@ class RuleSet:
     def total(self):
         return len(self.rules)
 
-def process_source():
+def sync_source():
     source_path = Path("ios_rule_script/rule/Clash")
-    target_config = {Path("Egern"): ".yaml", Path("Singbox"): ".json"}
-    for target_path in target_config:
+    for platform in PLATFORM_EXTENSION:
+        target_path = Path(platform)
         if target_path.exists():
             shutil.rmtree(target_path)
         target_path.mkdir(parents=True, exist_ok=True)
     for source_file in source_path.rglob("*.list"):
         relative_path = source_file.relative_to(source_path)
-        for target_path, extension in target_config.items():
-            target_file = target_path / relative_path.with_suffix(extension)
+        for platform, extension in PLATFORM_EXTENSION.items():
+            target_file = Path(platform) / relative_path.with_suffix(extension)
             target_file.parent.mkdir(parents=True, exist_ok=True)
             shutil.copy(source_file, target_file)
             print(f"Copied: {source_file} -> {target_file}")
@@ -97,62 +97,62 @@ def write_ruleset(file_path, ruleset, content, platform):
             file.writelines(f"{line}\n" for line in content)
     print(f"Processed ({platform}): {file_path}")
 
-def convert_rule(ruleset, platform):
-    if platform == "Egern":
+def convert_rule(ruleset, target_platform):
+    type_mapping = {}
+    for rule_type, mapping in RULE_TYPE_MAPPING.items():
+        if target_platform in mapping:
+            type_mapping[rule_type] = mapping[target_platform]
+    ruleset.rules = [rule for rule in ruleset.rules if rule.type in type_mapping]
+    if target_platform == "Egern":
         rule_dict = defaultdict(list)
-        no_resolve = False
         for rule in ruleset.rules:
-            rule_type = RULE_TYPE_MAPPING.get(rule.type, {}).get(platform)
-            if not rule_type:
-                continue
-            no_resolve |= rule.param == "no-resolve"
+            rule_type = type_mapping[rule.type]
             rule_value = f"'{rule.value}'" if rule.type in EGERN_QUOTED_TYPE else rule.value
             rule_dict[rule_type].append(rule_value)
-        output = ["no_resolve: true"] if no_resolve else []
-        for rule_type, rule_group in rule_dict.items():
+        output = []
+        if any(rule.param == "no-resolve" for rule in ruleset.rules):
+            output.append("no_resolve: true")
+        for rule_type, rule_values in rule_dict.items():
             output.append(f"{rule_type}:")
-            output.extend(f"  - {rule_value}" for rule_value in rule_group)
+            output.extend(f"  - {rule_value}" for rule_value in rule_values)
         return output
-    if platform == "Singbox":
+    if target_platform == "Singbox":
         rule_dict = defaultdict(list)
         for rule in ruleset.rules:
-            rule_type = RULE_TYPE_MAPPING.get(rule.type, {}).get(platform)
-            if not rule_type:
-                continue
+            rule_type = type_mapping[rule.type]
             rule_dict[rule_type].append(rule.value)
         output = {"version": 3, "rules": [dict(rule_dict)] if rule_dict else []}
         return output
-    raise ValueError(f"Unknown Platform: {platform}")
+    raise ValueError(f"Unknown Platform: {target_platform}")
 
 def write_readme(file_path, platform):
     platform_root = next(path for path in file_path.parents if path.name == platform)
     relative_file = file_path.relative_to(platform_root.parent)
-    links = [f"{RULESET_BASE_URL}/{relative_file.as_posix()}"]
+    rule_links = [f"{RULESET_BASE_URL}/{relative_file.as_posix()}"]
     if platform == "Singbox":
         relative_srs = file_path.with_suffix(".srs").relative_to(platform_root.parent)
-        links.append(f"{RULESET_BASE_URL}/{relative_srs.as_posix()}")
+        rule_links.append(f"{RULESET_BASE_URL}/{relative_srs.as_posix()}")
     readme_file = file_path.parent / "readme.md"
     with readme_file.open("w", encoding="utf-8", newline="\n") as file:
         file.write(f"# 🧸 {file_path.stem}\n\n")
-        file.write("\n\n".join(links))
+        file.write("\n\n".join(rule_links))
 
-def collect_files(file_path, platform):
-    if not file_path.exists():
-        raise FileNotFoundError(f"{file_path} Not Found.")
-    if not file_path.is_file() and not file_path.is_dir():
-        raise ValueError(f"{file_path} Unknown Type.")
+# 收集规则文件
+def collect_files(platform):
+    target_path = Path(platform)
     extension = PLATFORM_EXTENSION[platform]
-    file_source = [file_path] if file_path.is_file() else file_path.rglob(f"*{extension}")
+    if not target_path.exists():
+        raise FileNotFoundError(f"{target_path} Not Found.")
     files = []
-    for file in file_source:
-        if file.is_file() and file.suffix.lower() == extension:
+    for file in target_path.rglob(f"*{extension}"):
+        if file.is_file():
             files.append(file)
     if not files:
         raise ValueError("No Supported File Found.")
     return sorted(files)
 
-def process_files(file_path, platform):
-    files = collect_files(file_path, platform)
+def process_files(platform):
+    files = collect_files(platform)
     failed_files = []
     print(f"Platform: {platform}")
     print(f"Collected {len(files)} file(s)")
@@ -167,24 +167,21 @@ def process_files(file_path, platform):
             print(f"Failed to Process {file}: {error}")
     if failed_files:
         raise RuntimeError(f"Processed Failed: {len(failed_files)} file(s).")
-    print("Processed Completed.")
 
 def parse_arguments():
     parser = argparse.ArgumentParser(description="Rule Build")
-    parser.add_argument("platform", choices=["Source", "Egern", "Singbox"])
-    parser.add_argument("file_path", nargs="?", type=Path)
+    subparsers = parser.add_subparsers(dest="command")
+    convert_parser = subparsers.add_parser("C")
+    convert_parser.add_argument("platform", choices=["Egern", "Singbox"])
     return parser.parse_args()
 
 def main():
     try:
         args = parse_arguments()
-        if args.platform == "Source":
-            process_source()
-            print("Processed Completed.")
-            return
-        if not args.file_path:
-            raise ValueError("No File Path Specified.")
-        process_files(args.file_path, args.platform)
+        sync_source()
+        if args.command == "C":
+            process_files(args.platform)
+        print("Processed Completed.")
     except Exception as error:
         sys.exit(error)
 
