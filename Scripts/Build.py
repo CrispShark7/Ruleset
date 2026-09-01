@@ -56,6 +56,7 @@ class Rule:
 class RuleSet:
     name: str
     rules: list[Rule]
+
     @property
     def total(self):
         return len(self.rules)
@@ -137,21 +138,23 @@ def write_readme(file_path, platform):
         file.write(f"# 🧸 {file_path.stem}\n\n")
         file.write("\n\n".join(rule_links))
 
-def collect_files(platform):
-    target_path = Path(platform)
+def collect_files(file_path, platform):
+    if not file_path.exists():
+        raise FileNotFoundError(f"{file_path} Not Found.")
+    if not file_path.is_file() and not file_path.is_dir():
+        raise ValueError(f"{file_path} Unknown Type.")
     extension = PLATFORM_EXTENSION[platform]
-    if not target_path.exists():
-        raise FileNotFoundError(f"{target_path} Not Found.")
+    file_source = [file_path] if file_path.is_file() else file_path.rglob(f"*{extension}")
     files = []
-    for file in target_path.rglob(f"*{extension}"):
-        if file.is_file():
+    for file in file_source:
+        if file.is_file() and file.suffix.lower() == extension:
             files.append(file)
     if not files:
         raise ValueError("No Supported File Found.")
     return sorted(files)
 
-def process_files(platform):
-    files = collect_files(platform)
+def process_files(file_path, platform):
+    files = collect_files(file_path, platform)
     failed_files = []
     print(f"Platform: {platform}")
     print(f"Collected {len(files)} file(s)")
@@ -169,17 +172,18 @@ def process_files(platform):
 
 def parse_arguments():
     parser = argparse.ArgumentParser(description="Rule Build")
-    subparsers = parser.add_subparsers(dest="command")
-    convert_parser = subparsers.add_parser("C")
-    convert_parser.add_argument("platform", choices=["Egern", "Singbox"])
+    parser.add_argument("platform", nargs="?", choices=["Egern", "Singbox"])
+    parser.add_argument("file_path", nargs="?", type=Path)
     return parser.parse_args()
 
 def main():
     try:
         args = parse_arguments()
         sync_source()
-        if args.command == "C":
-            process_files(args.platform)
+        if args.platform:
+            if not args.file_path:
+                raise ValueError("No File Path Specified.")
+            process_files(args.file_path, args.platform)
         print("Processed Completed.")
     except Exception as error:
         sys.exit(error)
