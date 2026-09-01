@@ -24,12 +24,12 @@ jobs:
 
       - name: Sync Ruleset
         run: |
-          python -m Build Source
+          python -m Build
 
       - name: Convert Rule
         run: |
-          python -m Build Egern Egern
-          python -m Build Singbox Singbox
+          python -m Build C Egern Egern
+          python -m Build C Singbox Singbox
           find . -type d -name "__pycache__" -exec rm -rf {} +
 
       - name: Compile Rule
