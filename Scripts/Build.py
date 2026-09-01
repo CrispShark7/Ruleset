@@ -179,11 +179,12 @@ def parse_arguments():
 def main():
     try:
         args = parse_arguments()
-        sync_source()
         if args.platform:
             if not args.file_path:
                 raise ValueError("No File Path Specified.")
             process_files(args.file_path, args.platform)
+        else:
+            sync_source()
         print("Processed Completed.")
     except Exception as error:
         sys.exit(error)
