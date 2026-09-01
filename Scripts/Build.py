@@ -48,10 +48,14 @@ RULE_TYPE_MAPPING = {
 
 @dataclasses.dataclass(slots=True)
 class Rule:
-    type: str, value: str, param: str = ""
+    type: str
+    value: str
+    param: str = ""
+
 @dataclasses.dataclass(slots=True)
 class RuleSet:
-    name: str, rules: list[Rule]
+    name: str
+    rules: list[Rule]
     @property
     def total(self):
         return len(self.rules)
