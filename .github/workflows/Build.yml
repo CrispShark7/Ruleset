@@ -23,7 +23,7 @@ jobs:
 
       - name: Sync Ruleset
         run: |
-          python Scripts/Build.py
+          python Scripts/Build.py Source
 
       - name: Convert Rule
         run: |
