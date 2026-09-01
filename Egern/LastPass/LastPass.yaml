@@ -1,5 +1,9 @@
-# 规则名称: LastPass
-# 规则统计: 2
-
-domain_suffix_set:
-  - lastpass.com
+# NAME: LastPass
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2025-06-06 09:16:56
+# DOMAIN-SUFFIX: 1
+# PROCESS-NAME: 1
+# TOTAL: 2
+DOMAIN-SUFFIX,lastpass.com
+PROCESS-NAME,LastPass
