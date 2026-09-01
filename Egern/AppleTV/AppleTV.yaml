@@ -1,5 +1,5 @@
 # 规则名称: AppleTV
-# 规则统计: 7
+# 规则统计: 8
 
 domain_set:
   - hls-amt.itunes.apple.com

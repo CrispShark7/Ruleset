@@ -1,5 +1,5 @@
 # 规则名称: AmazonPrimeVideo
-# 规则统计: 25
+# 规则统计: 26
 
 domain_set:
   - d1v5ir2lpwr8os.cloudfront.net

@@ -1,5 +1,5 @@
 # 规则名称: Hulu
-# 规则统计: 58
+# 规则统计: 59
 
 domain_set:
   - live-mediashield-ava-hulustream-com.akamaized.net

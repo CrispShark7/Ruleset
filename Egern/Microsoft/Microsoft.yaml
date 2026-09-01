@@ -1,5 +1,5 @@
 # 规则名称: Microsoft
-# 规则统计: 668
+# 规则统计: 670
 
 domain_set:
   - vsmarketplacebadge.apphb.com

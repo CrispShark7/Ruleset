@@ -1,5 +1,5 @@
 # 规则名称: OneDrive
-# 规则统计: 16
+# 规则统计: 18
 
 domain_suffix_set:
   - 1drv.com
