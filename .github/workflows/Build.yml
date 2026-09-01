@@ -27,8 +27,8 @@ jobs:
 
       - name: Convert Rule
         run: |
-          python Scripts/Build.py C Egern
-          python Scripts/Build.py C Singbox
+          python Scripts/Build.py Egern Egern/
+          python Scripts/Build.py Singbox Singbox/
 
       - name: Compile Rule
         run: |
