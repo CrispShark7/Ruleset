@@ -1,13 +1,11 @@
-# NAME: Entrust
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-01-08 16:02:54
-# DOMAIN-SUFFIX: 7
-# TOTAL: 7
-DOMAIN-SUFFIX,affirmtrust.com
-DOMAIN-SUFFIX,atos.net
-DOMAIN-SUFFIX,certificat2.com
-DOMAIN-SUFFIX,entrust.net
-DOMAIN-SUFFIX,entrustdatacard.com
-DOMAIN-SUFFIX,myatos.net
-DOMAIN-SUFFIX,trendmicro.com
+# 规则名称: Entrust
+# 规则统计: 7
+
+domain_suffix_set:
+  - affirmtrust.com
+  - atos.net
+  - certificat2.com
+  - entrust.net
+  - entrustdatacard.com
+  - myatos.net
+  - trendmicro.com

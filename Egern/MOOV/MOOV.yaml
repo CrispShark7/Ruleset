@@ -1,8 +1,6 @@
-# NAME: MOOV
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:16:59
-# DOMAIN-SUFFIX: 2
-# TOTAL: 2
-DOMAIN-SUFFIX,moov.hk
-DOMAIN-SUFFIX,mtg.now.com
+# 规则名称: MOOV
+# 规则统计: 2
+
+domain_suffix_set:
+  - moov.hk
+  - mtg.now.com

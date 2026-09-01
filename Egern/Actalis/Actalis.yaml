@@ -1,8 +1,6 @@
-# NAME: Actalis
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-01-08 16:02:57
-# DOMAIN-SUFFIX: 2
-# TOTAL: 2
-DOMAIN-SUFFIX,actalis.com
-DOMAIN-SUFFIX,actalis.it
+# 规则名称: Actalis
+# 规则统计: 2
+
+domain_suffix_set:
+  - actalis.com
+  - actalis.it

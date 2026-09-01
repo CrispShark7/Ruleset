@@ -1,7 +1,5 @@
-# NAME: Accuweather
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-01-08 16:02:57
-# DOMAIN-SUFFIX: 1
-# TOTAL: 1
-DOMAIN-SUFFIX,accuweather.com
+# 规则名称: Accuweather
+# 规则统计: 1
+
+domain_suffix_set:
+  - accuweather.com

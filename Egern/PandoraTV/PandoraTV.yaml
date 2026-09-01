@@ -1,8 +1,6 @@
-# NAME: PandoraTV
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:16:59
-# DOMAIN-SUFFIX: 2
-# TOTAL: 2
-DOMAIN-SUFFIX,kmplayer.com
-DOMAIN-SUFFIX,pandora.tv
+# 规则名称: PandoraTV
+# 规则统计: 2
+
+domain_suffix_set:
+  - kmplayer.com
+  - pandora.tv

@@ -1,7 +1,5 @@
-# NAME: Kantv
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:16:58
-# DOMAIN-SUFFIX: 1
-# TOTAL: 1
-DOMAIN-SUFFIX,imkan.tv
+# 规则名称: Kantv
+# 规则统计: 1
+
+domain_suffix_set:
+  - imkan.tv

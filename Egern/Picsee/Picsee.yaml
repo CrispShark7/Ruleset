@@ -1,12 +1,10 @@
-# NAME: Picsee
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:17:46
-# DOMAIN-SUFFIX: 6
-# TOTAL: 6
-DOMAIN-SUFFIX,pics.ee
-DOMAIN-SUFFIX,picsee.co
-DOMAIN-SUFFIX,picsee.pro
-DOMAIN-SUFFIX,pise.pw
-DOMAIN-SUFFIX,pros.ee
-DOMAIN-SUFFIX,pse.is
+# 规则名称: Picsee
+# 规则统计: 6
+
+domain_suffix_set:
+  - pics.ee
+  - picsee.co
+  - picsee.pro
+  - pise.pw
+  - pros.ee
+  - pse.is

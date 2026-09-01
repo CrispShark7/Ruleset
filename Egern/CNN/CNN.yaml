@@ -1,12 +1,10 @@
-# NAME: CNN
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:16:57
-# DOMAIN-SUFFIX: 6
-# TOTAL: 6
-DOMAIN-SUFFIX,cnn.com
-DOMAIN-SUFFIX,cnn.io
-DOMAIN-SUFFIX,cnn.it
-DOMAIN-SUFFIX,cnnarabic.com
-DOMAIN-SUFFIX,cnnlabs.com
-DOMAIN-SUFFIX,cnnmoney.ch
+# 规则名称: CNN
+# 规则统计: 6
+
+domain_suffix_set:
+  - cnn.com
+  - cnn.io
+  - cnn.it
+  - cnnarabic.com
+  - cnnlabs.com
+  - cnnmoney.ch

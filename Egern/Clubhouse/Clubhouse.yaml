@@ -1,12 +1,10 @@
-# NAME: Clubhouse
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:17:41
-# DOMAIN: 2
-# DOMAIN-SUFFIX: 3
-# TOTAL: 5
-DOMAIN,clubhouse.pubnub.com
-DOMAIN,clubhouseprod.s3.amazonaws.com
-DOMAIN-SUFFIX,clubhouse.com
-DOMAIN-SUFFIX,clubhouseapi.com
-DOMAIN-SUFFIX,joinclubhouse.com
+# 规则名称: Clubhouse
+# 规则统计: 5
+
+domain_set:
+  - clubhouse.pubnub.com
+  - clubhouseprod.s3.amazonaws.com
+domain_suffix_set:
+  - clubhouse.com
+  - clubhouseapi.com
+  - joinclubhouse.com

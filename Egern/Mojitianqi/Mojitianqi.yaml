@@ -1,13 +1,11 @@
-# NAME: Mojitianqi
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:17:37
-# DOMAIN-SUFFIX: 7
-# TOTAL: 7
-DOMAIN-SUFFIX,airnut.com
-DOMAIN-SUFFIX,moji.com
-DOMAIN-SUFFIX,mojicb.com
-DOMAIN-SUFFIX,mojichina.com
-DOMAIN-SUFFIX,mojitest.com
-DOMAIN-SUFFIX,moweather.com
-DOMAIN-SUFFIX,xiaomo.cn
+# 规则名称: Mojitianqi
+# 规则统计: 7
+
+domain_suffix_set:
+  - airnut.com
+  - moji.com
+  - mojicb.com
+  - mojichina.com
+  - mojitest.com
+  - moweather.com
+  - xiaomo.cn

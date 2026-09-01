@@ -1,12 +1,10 @@
-# NAME: Python
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:17:50
-# DOMAIN-SUFFIX: 6
-# TOTAL: 6
-DOMAIN-SUFFIX,pycon.org
-DOMAIN-SUFFIX,pypa.io
-DOMAIN-SUFFIX,pypi.io
-DOMAIN-SUFFIX,pypi.org
-DOMAIN-SUFFIX,python.org
-DOMAIN-SUFFIX,pythonhosted.org
+# 规则名称: Python
+# 规则统计: 6
+
+domain_suffix_set:
+  - pycon.org
+  - pypa.io
+  - pypi.io
+  - pypi.org
+  - python.org
+  - pythonhosted.org

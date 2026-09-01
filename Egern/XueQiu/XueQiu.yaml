@@ -1,17 +1,15 @@
-# NAME: XueQiu
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:17:40
-# DOMAIN-SUFFIX: 11
-# TOTAL: 11
-DOMAIN-SUFFIX,aiganggu.com
-DOMAIN-SUFFIX,danjuanapp.com
-DOMAIN-SUFFIX,danjuanfunds.com
-DOMAIN-SUFFIX,iganggu.com
-DOMAIN-SUFFIX,imedao.com
-DOMAIN-SUFFIX,imeigu.cn
-DOMAIN-SUFFIX,imeigu.com.cn
-DOMAIN-SUFFIX,ncfjj.com
-DOMAIN-SUFFIX,snowballfinance.com
-DOMAIN-SUFFIX,snowballsecurities.com
-DOMAIN-SUFFIX,xueqiu.com
+# 规则名称: XueQiu
+# 规则统计: 11
+
+domain_suffix_set:
+  - aiganggu.com
+  - danjuanapp.com
+  - danjuanfunds.com
+  - iganggu.com
+  - imedao.com
+  - imeigu.cn
+  - imeigu.com.cn
+  - ncfjj.com
+  - snowballfinance.com
+  - snowballsecurities.com
+  - xueqiu.com

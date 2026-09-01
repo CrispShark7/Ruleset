@@ -1,14 +1,12 @@
-# NAME: Origin
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:17:50
-# DOMAIN: 5
-# DOMAIN-SUFFIX: 2
-# TOTAL: 7
-DOMAIN,cloudsync-prod.s3.amazonaws.com
-DOMAIN,eaasserts-a.akamaihd.net
-DOMAIN,origin-a.akamaihd.net
-DOMAIN,originasserts.akamaized.net
-DOMAIN,rtm.tnt-ea.com
-DOMAIN-SUFFIX,ea.com
-DOMAIN-SUFFIX,origin.com
+# 规则名称: Origin
+# 规则统计: 7
+
+domain_set:
+  - cloudsync-prod.s3.amazonaws.com
+  - eaasserts-a.akamaihd.net
+  - origin-a.akamaihd.net
+  - originasserts.akamaized.net
+  - rtm.tnt-ea.com
+domain_suffix_set:
+  - ea.com
+  - origin.com

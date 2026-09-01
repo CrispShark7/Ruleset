@@ -1,10 +1,8 @@
-# NAME: PlayStation
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:15:09
-# DOMAIN-SUFFIX: 4
-# TOTAL: 4
-DOMAIN-SUFFIX,playstation.com
-DOMAIN-SUFFIX,playstation.net
-DOMAIN-SUFFIX,playstationnetwork.com
-DOMAIN-SUFFIX,sonyentertainmentnetwork.com
+# 规则名称: PlayStation
+# 规则统计: 4
+
+domain_suffix_set:
+  - playstation.com
+  - playstation.net
+  - playstationnetwork.com
+  - sonyentertainmentnetwork.com

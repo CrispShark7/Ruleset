@@ -1,9 +1,7 @@
-# NAME: CETV
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:20:01
-# DOMAIN-SUFFIX: 3
-# TOTAL: 3
-DOMAIN-SUFFIX,centv.cn
-DOMAIN-SUFFIX,centv.net.cn
-DOMAIN-SUFFIX,cetv.cn
+# 规则名称: CETV
+# 规则统计: 3
+
+domain_suffix_set:
+  - centv.cn
+  - centv.net.cn
+  - cetv.cn

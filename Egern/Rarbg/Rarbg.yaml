@@ -1,28 +1,26 @@
-# NAME: Rarbg
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:17:47
-# DOMAIN-SUFFIX: 22
-# TOTAL: 22
-DOMAIN-SUFFIX,dyncdn.me
-DOMAIN-SUFFIX,proxyrarbg.org
-DOMAIN-SUFFIX,rarbg.bypassed.org
-DOMAIN-SUFFIX,rarbg.is
-DOMAIN-SUFFIX,rarbg.link
-DOMAIN-SUFFIX,rarbg.me
-DOMAIN-SUFFIX,rarbg.to
-DOMAIN-SUFFIX,rarbg.unblocked.vc
-DOMAIN-SUFFIX,rarbgaccess.org
-DOMAIN-SUFFIX,rarbgaccessed.org
-DOMAIN-SUFFIX,rarbgget.org
-DOMAIN-SUFFIX,rarbggo.org
-DOMAIN-SUFFIX,rarbgmirror.com
-DOMAIN-SUFFIX,rarbgmirror.org
-DOMAIN-SUFFIX,rarbgmirror.xyz
-DOMAIN-SUFFIX,rarbgproxy.org
-DOMAIN-SUFFIX,rarbgprx.org
-DOMAIN-SUFFIX,rarbgs.com
-DOMAIN-SUFFIX,rarbgto.org
-DOMAIN-SUFFIX,rarbgunblock.com
-DOMAIN-SUFFIX,rarbgunblock.org
-DOMAIN-SUFFIX,rarbgway.org
+# 规则名称: Rarbg
+# 规则统计: 22
+
+domain_suffix_set:
+  - dyncdn.me
+  - proxyrarbg.org
+  - rarbg.bypassed.org
+  - rarbg.is
+  - rarbg.link
+  - rarbg.me
+  - rarbg.to
+  - rarbg.unblocked.vc
+  - rarbgaccess.org
+  - rarbgaccessed.org
+  - rarbgget.org
+  - rarbggo.org
+  - rarbgmirror.com
+  - rarbgmirror.org
+  - rarbgmirror.xyz
+  - rarbgproxy.org
+  - rarbgprx.org
+  - rarbgs.com
+  - rarbgto.org
+  - rarbgunblock.com
+  - rarbgunblock.org
+  - rarbgway.org

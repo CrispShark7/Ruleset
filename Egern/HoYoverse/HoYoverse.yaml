@@ -1,17 +1,15 @@
-# NAME: HoYoverse
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:18:25
-# DOMAIN-SUFFIX: 11
-# TOTAL: 11
-DOMAIN-SUFFIX,genshinimpact.com
-DOMAIN-SUFFIX,honkaiimpact3.com
-DOMAIN-SUFFIX,honkaistarrail.com
-DOMAIN-SUFFIX,hoyo.link
-DOMAIN-SUFFIX,hoyolab.com
-DOMAIN-SUFFIX,hoyoverse.com
-DOMAIN-SUFFIX,juequling.com
-DOMAIN-SUFFIX,n0vadesktop.com
-DOMAIN-SUFFIX,starrails.com
-DOMAIN-SUFFIX,themisweeps.com
-DOMAIN-SUFFIX,yuanshen.com
+# 规则名称: HoYoverse
+# 规则统计: 11
+
+domain_suffix_set:
+  - genshinimpact.com
+  - honkaiimpact3.com
+  - honkaistarrail.com
+  - hoyo.link
+  - hoyolab.com
+  - hoyoverse.com
+  - juequling.com
+  - n0vadesktop.com
+  - starrails.com
+  - themisweeps.com
+  - yuanshen.com

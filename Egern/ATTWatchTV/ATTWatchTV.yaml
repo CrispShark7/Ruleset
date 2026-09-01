@@ -1,12 +1,10 @@
-# NAME: ATTWatchTV
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:16:57
-# DOMAIN-SUFFIX: 6
-# TOTAL: 6
-DOMAIN-SUFFIX,att.tv
-DOMAIN-SUFFIX,atttvnow.com
-DOMAIN-SUFFIX,attwatchtv.com
-DOMAIN-SUFFIX,directv.com
-DOMAIN-SUFFIX,dtvce.com
-DOMAIN-SUFFIX,nettyinternet.com
+# 规则名称: ATTWatchTV
+# 规则统计: 6
+
+domain_suffix_set:
+  - att.tv
+  - atttvnow.com
+  - attwatchtv.com
+  - directv.com
+  - dtvce.com
+  - nettyinternet.com

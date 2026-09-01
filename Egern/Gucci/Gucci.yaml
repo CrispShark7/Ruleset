@@ -1,12 +1,10 @@
-# NAME: Gucci
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:17:44
-# DOMAIN-SUFFIX: 6
-# TOTAL: 6
-DOMAIN-SUFFIX,chimeforchange.org
-DOMAIN-SUFFIX,gucci.cn
-DOMAIN-SUFFIX,gucci.com
-DOMAIN-SUFFIX,guccimuseo.com
-DOMAIN-SUFFIX,guccitimeless.com
-DOMAIN-SUFFIX,regiongold.com
+# 规则名称: Gucci
+# 规则统计: 6
+
+domain_suffix_set:
+  - chimeforchange.org
+  - gucci.cn
+  - gucci.com
+  - guccimuseo.com
+  - guccitimeless.com
+  - regiongold.com

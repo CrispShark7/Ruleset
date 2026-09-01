@@ -1,7 +1,5 @@
-# NAME: Civitai
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:20:01
-# DOMAIN-SUFFIX: 1
-# TOTAL: 1
-DOMAIN-SUFFIX,civitai.com
+# 规则名称: Civitai
+# 规则统计: 1
+
+domain_suffix_set:
+  - civitai.com

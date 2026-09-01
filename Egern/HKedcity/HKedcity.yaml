@@ -1,9 +1,7 @@
-# NAME: HKedcity
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:17:44
-# DOMAIN-SUFFIX: 3
-# TOTAL: 3
-DOMAIN-SUFFIX,edcity.hk
-DOMAIN-SUFFIX,hkedcity.net
-DOMAIN-SUFFIX,hkreadingcity.net
+# 规则名称: HKedcity
+# 规则统计: 3
+
+domain_suffix_set:
+  - edcity.hk
+  - hkedcity.net
+  - hkreadingcity.net

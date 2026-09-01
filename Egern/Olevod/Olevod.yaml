@@ -1,12 +1,10 @@
-# NAME: Olevod
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:20:01
-# DOMAIN-KEYWORD: 1
-# DOMAIN-SUFFIX: 4
-# TOTAL: 5
-DOMAIN-SUFFIX,haiwaikan.com
-DOMAIN-SUFFIX,iole.tv
-DOMAIN-SUFFIX,olehd.com
-DOMAIN-SUFFIX,olelive.com
-DOMAIN-KEYWORD,olevod
+# 规则名称: Olevod
+# 规则统计: 5
+
+domain_suffix_set:
+  - haiwaikan.com
+  - iole.tv
+  - olehd.com
+  - olelive.com
+domain_keyword_set:
+  - olevod

@@ -1,15 +1,13 @@
-# NAME: Battle
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:17:49
-# DOMAIN: 5
-# DOMAIN-SUFFIX: 3
-# TOTAL: 8
-DOMAIN,blizzard.nefficient.co.kr
-DOMAIN,blzddist1-a.akamaihd.net
-DOMAIN,blzddistkr1-a.akamaihd.net
-DOMAIN,bnetproduct-a.akamaihd.net
-DOMAIN,cdn.blz-contentstack.com
-DOMAIN-SUFFIX,battle.net
-DOMAIN-SUFFIX,battlenet.com.cn
-DOMAIN-SUFFIX,blizzard.com
+# 规则名称: Battle
+# 规则统计: 8
+
+domain_set:
+  - blizzard.nefficient.co.kr
+  - blzddist1-a.akamaihd.net
+  - blzddistkr1-a.akamaihd.net
+  - bnetproduct-a.akamaihd.net
+  - cdn.blz-contentstack.com
+domain_suffix_set:
+  - battle.net
+  - battlenet.com.cn
+  - blizzard.com

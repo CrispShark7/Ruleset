@@ -1,11 +1,9 @@
-# NAME: XiaoYuanKeJi
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:17:40
-# DOMAIN-SUFFIX: 5
-# TOTAL: 5
-DOMAIN-SUFFIX,10010mx.com
-DOMAIN-SUFFIX,5gimos.com
-DOMAIN-SUFFIX,bizport.cn
-DOMAIN-SUFFIX,mfexcel.com
-DOMAIN-SUFFIX,microfountain.com
+# 规则名称: XiaoYuanKeJi
+# 规则统计: 5
+
+domain_suffix_set:
+  - 10010mx.com
+  - 5gimos.com
+  - bizport.cn
+  - mfexcel.com
+  - microfountain.com

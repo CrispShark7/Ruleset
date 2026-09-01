@@ -1,12 +1,10 @@
-# NAME: KuaiDi100
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:17:35
-# DOMAIN-SUFFIX: 6
-# TOTAL: 6
-DOMAIN-SUFFIX,baidiapp.com
-DOMAIN-SUFFIX,baidinet.com
-DOMAIN-SUFFIX,ckd.im
-DOMAIN-SUFFIX,kd100.com
-DOMAIN-SUFFIX,kuaidi100.com
-DOMAIN-SUFFIX,kuaidilab.com
+# 规则名称: KuaiDi100
+# 规则统计: 6
+
+domain_suffix_set:
+  - baidiapp.com
+  - baidinet.com
+  - ckd.im
+  - kd100.com
+  - kuaidi100.com
+  - kuaidilab.com
