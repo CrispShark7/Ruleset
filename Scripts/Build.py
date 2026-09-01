@@ -137,7 +137,6 @@ def write_readme(file_path, platform):
         file.write(f"# 🧸 {file_path.stem}\n\n")
         file.write("\n\n".join(rule_links))
 
-# 收集规则文件
 def collect_files(platform):
     target_path = Path(platform)
     extension = PLATFORM_EXTENSION[platform]
